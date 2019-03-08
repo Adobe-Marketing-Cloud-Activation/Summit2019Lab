@@ -17,14 +17,14 @@ You learn how to:
 Here you will find things like digital copies of the Lab Manual.  Those attending in person will also receive a print copy.
 You will also find any scripts or code snippets that need to be used inthe Lab.  That is just to make it easier to copy and paste than to re-type everything.
 
-# Tools used in the Lab (All Free)
+## Tools used in the Lab (All Free)
  - [Microsoft Visual Studio Code](https://code.visualstudio.com/Download)
  - [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
  - [ObservePoint Chrome Extension](https://chrome.google.com/webstore/detail/observepoint-tagdebugger/daejfbkjipkgidckemjjafiomfeabemo)
 - [SearchDiscovery DTM/Launch Switch](https://chrome.google.com/webstore/detail/launch-and-dtm-switch/nlgdemkdapolikbjimjajpmonpbpmipk)
 
 
-# Links Used in the Lab
+## Links Used in the Lab
  - [Example Website](https://aem.enablementadobe.com/content/we-retail/us/en.html)
  - [Adobe Launch](https://launch-demo.adobe.com/)
  - [Experience Cloud User Docs](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
@@ -35,7 +35,7 @@ You will also find any scripts or code snippets that need to be used inthe Lab. 
 - [Adobe Auditor](https://auditor.adobe.com/)
 
 
- # Acknowledgments and Contributions
+ ## Acknowledgments and Contributions
   - Daniel Wright
   - Doug Moore
   - Jantzen Belliston
