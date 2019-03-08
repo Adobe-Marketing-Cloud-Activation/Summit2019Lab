@@ -35,4 +35,10 @@ You will also find any scripts or code snippets that need to be used inthe Lab. 
 - [Adobe Auditor](https://auditor.adobe.com/)
 
 
- # Acknowledgments
+ # Acknowledgments and Contributions
+  - Daniel Wright
+  - Doug Moore
+  - Jantzen Belliston
+  - Corey Spencer
+  - Brandon Pack
+
