@@ -1,25 +1,20 @@
 Pre-Lab
 =================================================
-L779+NUMBER@ADOBEEVENTLAB.COM
-
+Username:  L779+NUMBER@ADOBEEVENTLAB.COM
+Password:  Adobe2019!
 
 
 Exercise 1.1
 =================================================
 https://experiencecloud.adobe.com
+https://launch-demo-adobe.com
 
 
 
 Exercise 1.2
 =================================================
-Launch Tutorial
+Launch Tutorial #YOUR_NUMBER
 enablementadobe.com
-
-
-
-Exercise 3.1
-=================================================
-Initial Setup
 
 
 
@@ -31,34 +26,21 @@ http://bit.ly/WeRetail
 
 Exercise 4.1
 =================================================
-Page Name
 digitalData.page.pageInfo.pageName
-
-
-
-Exercise 4.2
-=================================================
-All Pages - Library Loaded
 
 
 
 Exercise 5.2
 =================================================
-Authentication State
-
-
 if (digitalData.user[0].profile[0].attributes.loggedIn)
     return "logged in"
 else
     return "logged out"
 	
 
-Email (Hashed)
 
 digitalData.user.0.profile.0.attributes.username
 
-
-crm_id
 
 
 <script>
