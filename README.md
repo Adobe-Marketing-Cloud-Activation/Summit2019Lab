@@ -8,14 +8,14 @@ Learn how to deploy Adobe Experience Cloud via Launch. We cover the principles a
 
 You learn how to:
 
-- Install Launch on a site
+- Install Launch on a site and/or Use the Debugger to Simulate it
 - Deploy ECID
 - Deploy Adobe Analytics and Adobe Target
 - Enable AAM server-side forwarding
 
 ## What Assets are in this Repo
 Here you will find things like digital copies of the Lab Manual.  Those attending in person will also receive a print copy.
-You will also find any scripts or code snippets that need to be used inthe Lab.  That is just to make it easier to copy and paste than to re-type everything.
+You will also find any scripts or code snippets that need to be used in the Lab.  That is just to make it easier to copy and paste, rather than to re-type everything.
 
 ## Tools used in the Lab (All Free)
  - [Microsoft Visual Studio Code](https://code.visualstudio.com/Download)
