@@ -17,7 +17,7 @@ You learn how to:
 Here you will find things like digital copies of the Lab Manual.  Those attending in person will also receive a print copy.
 You will also find any scripts or code snippets that need to be used in the Lab.  That is just to make it easier to copy and paste, rather than to re-type everything.
 
-## Tools used in the Lab (All Free)
+## Tools that may be helpful for this Lab (All Free)
  - [Microsoft Visual Studio Code](https://code.visualstudio.com/Download)
  - [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
  - [ObservePoint Chrome Extension](https://chrome.google.com/webstore/detail/observepoint-tagdebugger/daejfbkjipkgidckemjjafiomfeabemo)
