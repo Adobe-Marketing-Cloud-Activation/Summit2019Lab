@@ -1,0 +1,416 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-US">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content>
+    <meta name="description" content>
+    
+
+
+
+  
+<link href="css/static.css" rel="stylesheet" type="text/css">
+<link href="css/resources.css" rel="stylesheet" type="text/css">
+
+
+<link rel="stylesheet" href="css/main.css" type="text/css">
+<script type="text/javascript" src="js/jquery_1.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/granite.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/shared.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script type="text/javascript" src="js/bootstrap3.js"></script>
+
+
+        <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery-ui_1.js"></script>
+<script type="text/javascript" src="js/ckeditor.js"></script>
+
+    
+        <link rel="stylesheet" href="css/scf.css" type="text/css">
+<link rel="stylesheet" href="css/voting.css" type="text/css">
+<script type="text/javascript" src="js/underscore.js"></script>
+<script type="text/javascript" src="js/moment.js"></script>
+<script type="text/javascript" src="js/backbone.js"></script>
+<script type="text/javascript" src="js/handlebars.js"></script>
+<script type="text/javascript" src="js/scf.js"></script>
+<script type="text/javascript" src="js/voting.js"></script>
+
+    
+        <link rel="stylesheet" href="css/tagging.css" type="text/css">
+<link rel="stylesheet" href="css/forum.css" type="text/css">
+<script type="text/javascript" src="js/tagging.js"></script>
+<script type="text/javascript" src="js/forum.js"></script>
+
+    
+        <link rel="stylesheet" href="css/signup.css" type="text/css">
+<script type="text/javascript" src="js/signup.js"></script>
+
+    
+        <link rel="stylesheet" href="css/breadcrumbs.css" type="text/css">
+<script type="text/javascript" src="js/breadcrumbs.js"></script>
+
+    
+        
+    
+        
+    
+        
+    
+        <script type="text/javascript" src="js/modern.js"></script>
+<script type="text/javascript" src="js/kernel.js"></script>
+
+    
+<link rel="stylesheet" href="css/scf-skin.css" type="text/css">
+
+<link rel="stylesheet" href="css/clientlibs_1.css" type="text/css">
+<link rel="stylesheet" href="css/clientlibs.css" type="text/css">
+
+<link rel="stylesheet" href="css/core.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="css/leaderboard.css" type="text/css">
+<link rel="stylesheet" href="css/featuredcontent.css" type="text/css">
+<link rel="stylesheet" href="css/quicksearch.css" type="text/css">
+<link rel="stylesheet" href="css/sitepage.css" type="text/css">
+<script type="text/javascript" src="js/core.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/leaderboard.js"></script>
+<script type="text/javascript" src="js/quicksearch.js"></script>
+<script type="text/javascript" src="js/sitepage.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    
+
+    
+    <title>Forum</title>
+</head>
+
+
+
+
+<body class="scf-site-body">
+    <script data-scf-json="true" type="application/json" id="/en/communityold/forum/jcr:content">{"id":"/en/communityold/forum/jcr:content","properties":{"jcr:created":1542402796333,"pageTitle":"Forum","jcr:createdBy":"admin","jcr:title":"Forum","jcr:uuid":"63a6de65-9365-4b0a-a3e0-be30bede6d7a","jcr:versionHistory":"f394c28e-22c3-40ec-af77-1522416a314d","jcr:predecessors":["06dbb5b3-d327-46b8-bc50-e7b10080ce87"],"jcr:isCheckedOut":true,"jcr:mixinTypes":["cq:LiveSync","mix:versionable"],"etcpath":"/libs/settings/community/templates/functions/forum","jcr:primaryType":"cq:PageContent","jcr:baseVersion":"06dbb5b3-d327-46b8-bc50-e7b10080ce87","navTitle":"Forum"},"ugcPath":["/content/usergenerated/asi/jcr/en/communityold"],"siteId":"community-xk5gk","siteUrl":"/en/communityold","groupPage":false,"theme":"cq.social.console.theme.bootstrap-united","userAdmin":false,"siteTitle":"Luma Community","messagingAllowed":false,"searchPagePath":"/en/communityold/search","hasBreadcrumbs":false,"siteDescription":"Luma Community","baseLanguage":"English","resourceType":"social/console/components/hbs/sitepage","url":"/en/communityold/forum/_jcr_content.social.json","friendlyUrl":"/en/communityold/forum.html"}</script>
+
+    <nav class="scf-site-header navbar navbar-default hidden-xs" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand scf-js-site-title" data-id="community-xk5gk" href="/en/communityold.html">Luma Community</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+                
+                <div class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav">
+                        
+                            <li><a href="/en/communityold/signin.html">Log In</a></li>
+
+                    </ul>
+                    <button id="scf-language-picker" class="nav btn navbar-btn navbar-nav navbar-right dropdown-toggle navbar-link" type="button" data-toggle="dropdown">English
+                      <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">English</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="nav navbar-nav navbar-right">
+                    <div class="null quicksearch search"><script data-scf-json="true" type="application/json" id="/en/communityold/forum/jcr:content/null">{"id":"/en/communityold/forum/jcr:content/null","properties":{"endpoint":"/en/communityold/search/jcr:content/content/primary/searchresult","paths":"[/content/usergenerated/asi/jcr/en/communityold]","searchPagePath":"/en/communityold/search"},"availableLanguages":[{"languageName":"Default","languageCode":"default"},{"languageName":"English","languageCode":"en"},{"languageName":"French","languageCode":"fr"},{"languageName":"German","languageCode":"de"},{"languageName":"Japanese","languageCode":"ja"},{"languageName":"Italian","languageCode":"it"},{"languageName":"Spanish","languageCode":"es"},{"languageName":"Portuguese (Brazil)","languageCode":"pt_BR"},{"languageName":"Chinese (Simplified)","languageCode":"zh_CN"},{"languageName":"Chinese (Traditional)","languageCode":"zh_TW"},{"languageName":"Korean (South Korea)","languageCode":"ko_KR"}],"resourceType":"social/commons/components/hbs/quicksearch","url":"/en/communityold/forum/_jcr_content/null.social.json","friendlyUrl":"/en/communityold/forum.html"}</script>
+
+<div class="scf-css-quicksearch-container" data-component-id="/en/communityold/forum/jcr:content/null" data-scf-component="social/commons/components/hbs/quicksearch">
+    <form id="form-search-input-inline" action data-paths="[/content/usergenerated/asi/jcr/en/communityold]" class="scf-js-searchform navbar-form navbar-left">
+        <div class="scf-quicksearch-form-group form-group">
+            <input type="text" id="scf-js-quicksearch-input-inline" placeholder="Search" data-dropdown="drop_search" aria-controls="drop_search" aria-expanded="false" name="input_value" class="scf-quicksearch-value scf-js-search-value placeholder form-control" value required>
+            <input type="hidden" name="resultPage" class="scf-js-seach-resultPage" value="/en/communityold/search">
+            <input type="hidden" name="searchEndpoint" class="scf-js-search-endpoint" value="/en/communityold/search/jcr:content/content/primary/searchresult">
+        </div>
+    </form>
+</div>
+</div>
+
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+    <div class="sitenav sitenavbar"><script data-scf-json="true" type="application/json" id="/en/communityold/forum/jcr:content/sitenav">{"id":"/en/communityold/forum/jcr:content/sitenav","properties":{"searchPage":"/en/communityold/search","searchPath":"[/content/usergenerated/asi/jcr/en/communityold]"},"siteUrl":"/en/communityold","userAdmin":false,"navItems":[{"title":"Activities","url":"/en/communityold.html"},{"title":"Trending","url":"/en/communityold/trending.html"},{"title":"Forum","url":"/en/communityold/forum.html"},{"title":"Files","url":"/en/communityold/files.html"},{"title":"Catalog","url":"/en/communityold/catalog.html"},{"title":"Assignments","url":"/en/communityold/assignments.html"},{"title":"Blog","url":"/en/communityold/blog.html"},{"title":"Questions","url":"/en/communityold/questions.html"},{"title":"Ideas","url":"/en/communityold/ideas.html"},{"title":"Calendar","url":"/en/communityold/calendar.html"},{"title":"Groups","url":"/en/communityold/groups.html"},{"title":"Members","url":"/en/communityold/members.html"},{"title":"Social","url":"/en/communityold/social.html"}],"adminUrl":"/en/communityold/moderation.html","resourceType":"social/console/components/hbs/sitenavbar","url":"/en/communityold/forum/_jcr_content/sitenav.social.json","friendlyUrl":"/en/communityold/forum.html"}</script>
+<div class="scf-site-navbar hidden-xs" role="navigation">
+    <ul class="nav nav-pills scf-site-nav">
+        
+            <li><a href="/en/communityold.html">Activities</a></li>
+        
+            <li><a href="/en/communityold/trending.html">Trending</a></li>
+        
+            <li><a href="/en/communityold/forum.html">Forum</a></li>
+        
+            <li><a href="/en/communityold/files.html">Files</a></li>
+        
+            <li><a href="/en/communityold/catalog.html">Catalog</a></li>
+        
+            <li><a href="/en/communityold/assignments.html">Assignments</a></li>
+        
+            <li><a href="/en/communityold/blog.html">Blog</a></li>
+        
+            <li><a href="/en/communityold/questions.html">Questions</a></li>
+        
+            <li><a href="/en/communityold/ideas.html">Ideas</a></li>
+        
+            <li><a href="/en/communityold/calendar.html">Calendar</a></li>
+        
+            <li><a href="/en/communityold/groups.html">Groups</a></li>
+        
+            <li><a href="/en/communityold/members.html">Members</a></li>
+        
+            <li><a href="/en/communityold/social.html">Social</a></li>
+        
+        
+    </ul>
+</div>
+
+<nav class="scf-site-navbar navbar navbar-default hidden-lg hidden-md hidden-sm">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+                <a class="navbar-link navbar-brand" href="/en/communityold/signin.html">Log In</a>
+                
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="primary-nav">
+            <ul class="nav navbar-nav">
+                
+                    <li><a href="/en/communityold.html">Activities</a></li>
+                
+                    <li><a href="/en/communityold/trending.html">Trending</a></li>
+                
+                    <li><a href="/en/communityold/forum.html">Forum</a></li>
+                
+                    <li><a href="/en/communityold/files.html">Files</a></li>
+                
+                    <li><a href="/en/communityold/catalog.html">Catalog</a></li>
+                
+                    <li><a href="/en/communityold/assignments.html">Assignments</a></li>
+                
+                    <li><a href="/en/communityold/blog.html">Blog</a></li>
+                
+                    <li><a href="/en/communityold/questions.html">Questions</a></li>
+                
+                    <li><a href="/en/communityold/ideas.html">Ideas</a></li>
+                
+                    <li><a href="/en/communityold/calendar.html">Calendar</a></li>
+                
+                    <li><a href="/en/communityold/groups.html">Groups</a></li>
+                
+                    <li><a href="/en/communityold/members.html">Members</a></li>
+                
+                    <li><a href="/en/communityold/social.html">Social</a></li>
+                
+                
+            </ul>
+            <form data-paths="[/content/usergenerated/asi/jcr/en/communityold]" class="scf-js-searchform navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" name="input_value" placeholder="Search..." class="form-control scf-search-value, scf-js-search-value">
+                    <input style="display:none" type="checkbox" class="scf-js-search-jcrtitle" value="jcr:title" checked>
+                    <input style="display:none" type="checkbox" class="scf-js-search-jcrdescription" value="jcr:description" checked>
+                    <input style="display:none" type="checkbox" class="scf-js-search-tag" value="tag" checked>
+                    <input style="display:none" type="checkbox" class="scf-js-search-userIdentifier" value="userIdentifier" checked>
+                    <input type="hidden" name="resultPage" class="scf-js-seach-resultPage" value="/en/communityold/search">
+                </div>
+            </form>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+</div>
+
+    <div class="groupnav groupnavbar"><script data-scf-json="true" type="application/json" id="/en/communityold/forum/jcr:content/groupnav">{"id":"/en/communityold/forum/jcr:content/groupnav","resourceType":"social/console/components/hbs/groupnavbar","url":"/en/communityold/forum/_jcr_content/groupnav.social.json","friendlyUrl":"/en/communityold/forum.html"}</script>
+<div class="scf-group-navbar scf-js-group-navbar">
+    <ul class="nav nav-pills scf-site-nav">
+        
+    </ul>
+</div>
+</div>
+
+    <div class="container-fluid scf-site-body-content-container">
+        <div class="scf-social-console-textbox-tooltip">
+            Your reply has been posted successfully!
+        </div>
+        <div class="row scf-breadcrumbs-box">
+            <div class="col-md-12">
+                <div class="breadcrumbs"><script data-scf-json="true" type="application/json" id="/en/communityold/forum/jcr:content/content/breadcrumbs">{"id":"/en/communityold/forum/jcr:content/content/breadcrumbs","properties":{"jcr:lastModifiedBy":"admin","jcr:created":1386366135659,"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:createdBy":"admin","jcr:lastModified":1541466673822,"jcr:primaryType":"nt:unstructured"},"crumbs":[{"title":"Luma Community","url":"/en/communityold.html","current":false},{"title":"Forum","url":"/en/communityold/forum.html","current":true}],"resourceType":"social/console/components/hbs/breadcrumbs","url":"/en/communityold/forum/_jcr_content/content/breadcrumbs.social.json","friendlyUrl":"/en/communityold/forum.html"}</script>
+<ol class="scf-js-site-breadcrumbs breadcrumb">
+    
+        
+            <li>
+                <a href="/en/communityold.html">Luma Community</a>
+            </li>
+            
+    
+        
+                <li class="active">Forum</li>
+        
+    
+</ol>
+</div>
+
+            </div>
+        </div>
+        <div class="content singlecolumncontent"><script data-scf-json="true" type="application/json" id="/en/communityold/forum/jcr:content/content">{"id":"/en/communityold/forum/jcr:content/content","properties":{"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:primaryType":"nt:unstructured"},"resourceType":"social/console/components/hbs/singlecolumncontent","url":"/en/communityold/forum/_jcr_content/content.social.json","friendlyUrl":"/en/communityold/forum.html"}</script>
+<div class="row scf-site-content">
+    <div class="row scf-site-primary">
+        <div class="col-md-12">
+            <div class="responsivegrid">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="forum comments aem-GridColumn aem-GridColumn--default--12"><div class="where_can_i_get_more-qmUZ topic post comment"><script data-scf-json="true" type="application/json" id="/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ">{"id":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ","properties":{"social:parentid":"/en/communityold/forum/jcr:content/content/primary/forum","sentiment":5,"cq:tags":["luma:"],"social:rootCommentSystem":"/en/communityold/forum/jcr:content/content/primary/forum","mtlanguage":"en","added":1544990550279,"Referer":"/en/communityold/forum.html","publishDate":1544990551029,"contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ","url":"","social:key":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ","approved":true,"social:baseType":"social/commons/components/comments/comment","social:entity":"/en/communityold/forum.topic.html/where_can_i_get_more-qmUZ.html","social:attachments":["/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ/D64F654B-0F39-455D-A380-4823DC94E184.jpeg"],"eventTopic":"forum","isCreatedByPrivilegedUser":true,"latestActivityDate_dt":1544990551023},"author":{"id":"/social/authors/ysaleem@adobe.com","name":"Yasir Saleem","profileUrl":"/en/communityold/profile.html/home/users/community/q/3RbxjHHyGpgyB-47MYSi/profile","avatarUrl":"/home/users/community/q/3RbxjHHyGpgyB-47MYSi/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/q/3RbxjHHyGpgyB-47MYSi/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"ysaleem@adobe.com","resourceType":"social/commons/components/author","url":"/social/authors/ysaleem@adobe.com.social.json","friendlyUrl":"/en/communityold/profile.html/home/users/community/q/3RbxjHHyGpgyB-47MYSi/profile"},"attachments":{"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ/D64F654B-0F39-455D-A380-4823DC94E184.jpeg":{"thumbnailUrl":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ/att_renditions/D64F654B-0F39-455D-A380-4823DC94E184.jpeg","image":true,"name":"D64F654B-0F39-455D-A380-4823DC94E184.jpeg","type":"image/jpeg","path":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ/D64F654B-0F39-455D-A380-4823DC94E184.jpeg"}},"created":1544990550279,"message":"Really enjoyed the presentation need more info and demos ","resourceType":"social/forum/components/hbs/topic","publishDate":1544990551029,"canEdit":false,"canDelete":false,"configuration":{"pageSize":10,"sortOrder":"REVERSED_ORDER","sortFields":[{"added":false}],"sortByItemsList":["newest","added","latestActivityDate_dt"],"tagFilterVal":null,"usingPrivilegedUsers":false,"tagFilterLimit":-1,"breadcrumbsEnabled":true,"moveAllowed":false,"subscriptionsAllowed":true,"analyticsTimeSelector":"total_tl","followingAllowed":true,"doNotGetRepliesOnListingPage":false,"isTaggingAllowed":true,"isAttachmentAllowed":true,"isRTEEnabled":true,"isCustomFlagReasonAllowed":false,"isTranslateAllButtonAllowed":false,"isCloseAllowed":true,"isPinAllowed":true,"isDenyAllowed":true,"isEditAllowed":true,"isReplyAllowed":true,"isDeleteAllowed":true,"isFeaturingContentAllowed":true,"thumbnailSize":800,"isVotingAllowed":true,"isFlaggingAllowed":true},"moderatorActions":{"canMove":false,"canMarkFeatured":false,"useFlagReasonList":false,"canPin":false,"canAllow":false,"canFlag":false,"canReview":false,"reviewStates":[],"canClose":false,"canDeny":false},"useFlagReasons":false,"pageInfo":{"basePageURL":"/en/communityold/forum","currentIndex":0,"pageSize":10,"sortIndex":null,"selectedPage":1,"urlpattern":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ.social.${startIndex}.10.html","hasMultiplePages":false,"totalPages":0,"lastPage":-10,"hasNextPage":false,"hasPreviousPage":false,"previousPageURL":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ.social.0.10.html","nextSuffix":"0.10","previousSuffix":"0.10","includedPath":"/en/communityold/forum/jcr:content/content/primary/forum","orderReversed":false,"nextPageURL":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ.social.0.10.html"},"parent":"/en/communityold/forum/_jcr_content/content/primary/forum.social.json","lastModifiedUser":{"id":"/social/authors/ysaleem@adobe.com","name":"Yasir Saleem","profileUrl":"/en/communityold/profile.html/home/users/community/q/3RbxjHHyGpgyB-47MYSi/profile","avatarUrl":"/home/users/community/q/3RbxjHHyGpgyB-47MYSi/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/q/3RbxjHHyGpgyB-47MYSi/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"ysaleem@adobe.com","resourceType":"social/commons/components/author","url":"/social/authors/ysaleem@adobe.com.social.json","friendlyUrl":"/en/communityold/profile.html/home/users/community/q/3RbxjHHyGpgyB-47MYSi/profile"},"subject":"Where can I get more info on Luma and the backend platform ","forumId":"/en/communityold/forum/jcr:content/content/primary/forum","friendlyUrl":"/en/communityold/forum.topic.html/where_can_i_get_more-qmUZ.html","topicClosed":false,"forumClosed":false,"topic":true,"topLevel":true,"draft":false,"tags":[{"tagId":"luma:","title":"Luma"}],"scheduled":false,"approved":true,"canTranslate":false,"userModerator":false,"votes":{"id":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ/voting","negativeCount":0,"positiveLabel":"Helpful","positiveCount":0,"negativeLabel":"Unhelpful","netCount":0,"currentUserLike":false,"canUserRespond":false,"totalNumberOfResponses":0,"resourceType":"social/tally/components/hbs/voting","url":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ/voting.social.json","friendlyUrl":"/en/communityold/forum.html"},"canReply":false,"parentId":"/en/communityold/forum/jcr:content/content/primary/forum","totalSize":0,"url":"/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ.social.json","isClosed":false,"isVisible":true,"isPinned":false,"isFeatured":false,"isFlaggedByUser":false,"sourceComponentId":"/en/communityold/forum/jcr:content/content/primary/forum"}</script>
+<div class="scf scf-topic" data-component-id="/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ" data-scf-component="social/forum/components/hbs/topic">
+    
+        <p class="scf-breadcrumb scf-quiet">Topics &#187; <a href="/en/communityold/forum.html">Forum</a> &#187; Where can I get more info on Luma and the backend platform </p>
+    
+    
+    <aside class="scf-topic-userinfo">
+        <img class="scf-topic-avatar" src="images/image.prof.thumbnail.48.png" alt="Yasir Saleem" title="Yasir Saleem">
+        <div class="scf-quiet"><a href="/en/communityold/profile.html/home/users/community/q/3RbxjHHyGpgyB-47MYSi/profile">Yasir Saleem</a></div>
+        <p>
+            
+            
+        </p>
+        <br>
+    </aside>
+    <div class="scf-topic-col1">
+        <div class="scf-js-topic-details">
+            
+
+<div class="scf-comment-status">
+    
+
+        
+        
+
+    
+</div>
+
+            
+            <h3 data-translate-prop="jcr:title" data-translate-respath="/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ">
+            
+                Where can I get more info on Luma and the backend platform 
+            
+            </h3> 
+
+
+<div class="scf scf-social-network-sharing" data-component-id="/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ" data-scf-component="social/commons/components/hbs/socialshare">
+    <a href="http://www.facebook.com/sharer.php?u=" class="scf-share-item" evt="click=share" target="_blank">
+        <span class="scf-icon-facebook" data-href="http://www.facebook.com/sharer.php?u="></span>
+    </a>
+
+    <a href="https://twitter.com/share?status=/en/communityold/forum.topic.html/where_can_i_get_more-qmUZ.html;text=Where%20can%20I%20get%20more%20info%20on%20Luma%20and%20the%20backend%20platform%20;hashtags=Luma," class="scf-share-item" target="_blank">
+        <span class="scf-icon-twitter"></span>
+    </a>
+
+    <a href="https://plus.google.com/share?url=" class="scf-share-item" evt="click=share" target="_blank">
+        <span class="scf-icon-googleplus" data-href="http://plus.google.com/share?url="></span>
+    </a>
+
+    <a class="scf-js-email-share">
+        <span class="scf-icon-email"></span>
+    </a>
+</div>
+
+            <p class="scf-js-comment-msg" data-translate-prop="jcr:description" data-translate-respath="/content/usergenerated/asi/jcr/en/communityold/forum/jcr:content/content/primary/forum/where_can_i_get_more-qmUZ">
+                
+                    Really enjoyed the presentation need more info and demos 
+                
+            </p>
+            
+                <ul class="scf-horizontal-tag-list">
+                    
+                        <li class="scf-selected-tag">Luma</li>
+                    
+                </ul>
+            
+
+            
+                
+                    <ul class="well scf-cards scf-js-attachments scf-comment-attachments">
+                        
+                            
+                                <li class="scf-card scf-comment-img-att">
+                                    <img src="images/D64F654B-0F39-455D-A380-4823DC94E184.jpeg" class="scf-card-img scf-comment-attachment-img">
+                                    <span class="scf-card-footer"><a href="/content/usergenerated/asi/jcr/en/communityold/forum/_jcr_content/content/primary/forum/where_can_i_get_more-qmUZ/D64F654B-0F39-455D-A380-4823DC94E184.jpeg" target="_blank">D64F654B-0F39-455D-A380-4823DC94E184.jpeg</a></span>
+                                </li>
+                            
+                        
+                    </ul>
+                
+            
+
+        </div>
+
+        
+
+        
+<div class="scf-comment-toolbar">
+    
+</div>
+
+    </div>
+    <div class="scf-clear-both"></div>
+
+    <ul class="scf-comments-list">
+        
+    </ul>
+    <!-- NEW pagination -->
+    
+
+
+    <!-- eo NEW pagination -->
+    
+        
+    
+</div>
+</div>
+</div>
+
+    
+</div></div>
+
+        </div>
+    </div>
+</div>
+</div>
+
+    </div>
+    <div class="clientcontext parbase"><script type="text/javascript">
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("\/etc\/segmentation");
+        CQ_Analytics.ClientContextUtils.init("\/etc\/clientcontext\/default", "\/content\/luma\/us\/en\/communityold\/forum");
+
+        
+    });
+</script>
+</div>
+ <div class="cloudservices servicecomponents">
+</div>
+
+
+
+</body>
+</html>

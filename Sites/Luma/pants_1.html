@@ -1,0 +1,2487 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Pants</title>
+    
+    
+    <meta name="template" content="section-page">
+    
+
+    
+
+    
+    
+<link rel="stylesheet" href="css/clientlib-dependencies.css" type="text/css">
+<script type="text/javascript" src="js/clientlib-dependencies.js"></script>
+
+
+
+    
+    
+<link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="css/site.css" type="text/css">
+<link rel="stylesheet" href="css/clientlib-base.css" type="text/css">
+
+
+
+
+
+
+<script src="js/dje4ayd.js"></script>
+<script>try {
+    Typekit.load({async: true});
+} catch (e) {
+}</script>
+
+
+<script type="text/javascript">
+            (function() {
+                window.ContextHub = window.ContextHub || {};
+
+                /* setting paths */
+                ContextHub.Paths = ContextHub.Paths || {};
+                ContextHub.Paths.CONTEXTHUB_PATH = "/libs/settings/cloudsettings/legacy/contexthub";
+                ContextHub.Paths.RESOURCE_PATH = "\/content\/luma\/us\/en\/products\/men\/bottoms\/pants\/_jcr_content\/contexthub";
+                ContextHub.Paths.SEGMENTATION_PATH = "\/conf\/we\u002Dretail\/settings\/wcm\/segments";
+                ContextHub.Paths.CQ_CONTEXT_PATH = "";
+
+                /* setting initial constants */
+                ContextHub.Constants = ContextHub.Constants || {};
+                ContextHub.Constants.ANONYMOUS_HOME = "/home/users/O/O-8Uyi-Wv7_jWp7Tatf5";
+                ContextHub.Constants.MODE = "no-ui";
+            }());
+        </script><script src="contexthub" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+window.digitalData = {
+  "page": {
+    "pageInfo": {
+      "breadcrumbs": "luma:us:en:products:men:bottoms:pants",
+      "pageShortName": "luma:[...]:pants",
+      "pageName": "content:luma:us:en:products:men:bottoms:pants",
+      "destinationURL": "https://publish1034.adobedemo.com/en/products/men/bottoms/pants.html",
+      "isIframe": false,
+      "contentIframe": false,
+      "hierarchie1": "luma:us:en:products:men:bottoms:pants",
+      "title": "Pants",
+      "internalPageName": "pants",
+      "pageID": "publish1034.adobedemo.com:content:luma:us:en:products:men:bottoms:pants",
+      "tagging": "",
+      "server": "publish1034.adobedemo.com",
+      "urlShortcut": ""
+    },
+    "category": {
+      "type": ":conf:we-retail:settings:wcm:templates:section-page",
+      "version": "2018-11-14"
+    },
+    "attributes": {},
+    "components": []
+  },
+  "product": [
+    {
+      "productInfo": {}
+    }
+  ],
+  "cart": {
+    "productsInCart": 0
+  },
+  "user": [
+    {
+      "profile": [
+        {
+          "profileInfo": {},
+          "attributes": {
+            "loggedIn": false
+          }
+        }
+      ]
+    }
+  ],
+  "pageInstanceID": "s7connect:publish:content:luma:us:en:products:men:bottoms:pants",
+  "language": "en"
+};
+window.digitalData.page.pageInfo.referringURL = document.referrer;
+window.digitalData.page.pageInfo.sysEnv = navigator.userAgent;
+</script>
+
+
+
+
+
+    
+    
+    
+
+    
+
+    
+    
+<link rel="stylesheet" href="css/clientlib-product-page.css" type="text/css">
+
+
+
+    
+
+    
+</head>
+    <body class="page basicpage">
+        
+        
+            
+
+
+
+            
+<div class="container">
+    <div class="root responsivegrid">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="header aem-GridColumn aem-GridColumn--default--12">
+<div id="top" class="we-retail-header" data-we-header-content="/en/products/men/bottoms/pants.header_include.html">
+    
+<div class="navbar navbar-inverse navbar-fixed-top hidden-xs hidden-sm">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-left">
+
+	<!--
+            <li><a href="#" data-toggle="modal" data-target=".we-LanguageModal" title="English"><i class="we-lang-icon we-lang-icon-US"></i> en</a></li>
+-->
+</ul>
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li>
+<div class="we-Cart">
+
+
+    <a class="we-Cart-button" href="#" v-on:click="toggle">
+        <i class="fa fa-shopping-cart"></i>&nbsp My cart &nbsp <span class="badge active" v-cloak v-if="cartEntriesSize > 0">{{cartEntriesSize}}</span>
+    </a>
+
+    <cart-content inline-template>
+        <div class="we-Cart-content" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/cart.html" itemscope="itemscope">
+            <div class="we-Cart-header">
+                <div class="we-Cart-headerLeft">
+                    <a href="#" v-on:click="$parent.toggle">
+                        <i class="we-Icon we-Icon--close"></i>
+                    </a>
+                </div>
+                <div class="we-Cart-headerRight">
+                    <span itemprop="totalEntries" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope">{{cartEntriesSize}}</span> items in cart
+                </div>
+            </div>
+
+            <div class="we-Cart-empty" v-if="cartEntriesSize == 0">The cart is empty.</div>
+
+            <div class="we-Cart-data">
+
+                <div class="we-Cart-entries" v-if="cartEntriesSize > 0">
+                    <div class="we-Cart-entry" v-for="(index, cartEntry) in cartEntries" itemprop="entries" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/cartentry.html" itemscope="itemscope">
+
+                        <img class="we-Cart-image" v-bind:src="cartEntry.thumbnail" alt="{{ cartEntry.title }}" itemprop="asset" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+
+                        <div class="we-Cart-entryContent">
+                            <div itemprop="product" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/product.html" itemscope="itemscope">
+                                <meta content="{{ cartEntry.title }}" itemprop="name" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                <a href="#" v-bind:href="cartEntry.page" itemprop="path" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                    <strong>{{ cartEntry.title }}</strong>
+                                </a>
+                                <div class="text-muted">
+                                    <small v-if="cartEntryPromotions(index) && cartEntryPromotions(index).length > 0">
+                                        <span class="text-info" v-for="promotion in cartEntryPromotions(index)" v-html="promotion.message"></span>
+                                    </small>
+                                    <small itemprop="description" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                        {{ cartEntry.description }}
+                                    </small>
+                                    <ul v-if="cartEntry.variant" class="small we-Cart-entryVariants">
+                                        <li v-for="(key, val) in cartEntry.variant">
+                                            <span>{{ key }}</span>: {{ val }}
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="we-Cart-entryQuantity">
+                                <label class="text-muted">Qty:</label>
+                                
+                                
+                                
+                                <span v-if="cartEntry.readonly == true" itemprop="quantity" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope">{{ cartEntry.quantity }}</span>
+                                
+                                <form method="POST" action="/en/products/men/bottoms/pants.weretail.modifycartentry.html" v-if="cartEntry.readonly != true">
+                                    <input type="hidden" name="entryNumber" value="{{index}}">
+                                    <input type="hidden" name="redirect" value="/en/products/men/bottoms/pants.html">
+                                    <input type="number" name="quantity" v-model="cartEntry.quantity" min="0" step="1" v-on:change.prevent="updateCart" itemprop="quantity" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope">
+                                </form>
+                            </div>
+                            <div class="we-Cart-entryPrice" itemprop="itemPrice" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                <strong>{{ cartEntry.priceFormatted }}</strong>
+                            </div>
+                        </div>
+
+                        <div class="we-Cart-remove">
+                            <form method="POST" action="/en/products/men/bottoms/pants.weretail.deletecartentry.html" v-on:click.prevent="updateCart" v-if="cartEntry.readonly != true">
+                                <input type="hidden" name="entryNumber" value="{{index}}">
+                                <input type="hidden" name="redirect" value="/en/products/men/bottoms/pants.html">
+                                <button type="submit" class="btn btn-default btn-icon"><i class="text-muted fa fa-times-circle-o"></i></button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="we-Cart-promotions" v-if="orderPromotions && orderPromotions.length > 0">
+                    <span v-for="promotion in orderPromotions" class="we-Cart-promotion" v-html="promotion.message"></span>
+                </div>
+
+                <div class="we-Cart-footer">
+                    <div class="we-Cart-subtotal" v-if="cartEntriesSize > 0">
+                        sub-total: <span itemprop="total" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">{{cartTotalPrice}}</span>
+                    </div>
+                    <a v-if="cartEntriesSize > 0" class="btn btn-primary btn-action pull-right" href="cart.html">Checkout</a>
+                </div>
+
+            </div>
+        </div>
+    </cart-content>
+</div>
+</li>
+            
+            <li><a href="signin.html">Login</a></li>
+            
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-absolute-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#we-example-navbar-collapse-inverse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+            </button>
+
+            <button type="button" class="navbar-toggle navbar-toggle-close collapsed" data-toggle="collapse" data-target="#we-example-navbar-collapse-inverse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="we-Icon we-Icon--close"></i>
+            </button>
+
+            <a class="navbar-brand" href="index.html"> <img src="images/Luma_Logo.png">
+<!--
+<strong>LUMA</strong>
+-->
+
+</a>
+            <div class="pull-right visible-xs visible-sm">
+<div class="we-Cart">
+    <a class="we-Cart-button" href="#" v-on:click="toggle" style="color:#1979c3; font-size: 20px; ">
+        <i class="fa fa-shopping-cart"></i> &nbsp <span class="badge active" v-cloak v-if="cartEntriesSize > 0">{{cartEntriesSize}}</span>
+    </a>
+</div></div>
+        </div>
+
+        <!-- /.navbar-header -->
+        <div class="collapse navbar-collapse width" id="we-example-navbar-collapse-inverse">
+            <ul class="nav navbar-nav navbar-center">
+                <li class="visible-xs visible-sm"><a href="index.html" style="font-size:24px;"><strong class="text-primary">Luma Mobile Menu</strong></a></li>
+                <div class="we-navigation">
+<nav class="cmp-navigation">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="experience.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="beginners-luck.html" title="Beginners Luck" class="cmp-navigation__item-link">Beginners Luck</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="warming-up.html" title="Warming Up" class="cmp-navigation__item-link">Warming Up</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="keep-moving.html" title="Keep Moving" class="cmp-navigation__item-link">Keep Moving</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="mindex.html" title="Men" class="cmp-navigation__item-link">Men</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="womindex.html" title="Women" class="cmp-navigation__item-link">Women</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="equipment.html" title="Equipment" class="cmp-navigation__item-link">Equipment</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="about-us.html" title="About Us" class="cmp-navigation__item-link">About Us</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="contact-luma.html" title="Contact Luma" class="cmp-navigation__item-link">Contact Luma</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="customer-service.html" title="Customer Service" class="cmp-navigation__item-link">Customer Service</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="privacy-policy.html" title="Luma Privacy Policy" class="cmp-navigation__item-link">Luma Privacy Policy</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="communityold.html" title="Activities" class="cmp-navigation__item-link">Activities</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="trending.html" title="Trending" class="cmp-navigation__item-link">Trending</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="forum.html" title="Forum" class="cmp-navigation__item-link">Forum</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="files.html" title="Files" class="cmp-navigation__item-link">Files</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="catalog.html" title="Catalog" class="cmp-navigation__item-link">Catalog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="assignments.html" title="Assignments" class="cmp-navigation__item-link">Assignments</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="blog.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="questions.html" title="Questions" class="cmp-navigation__item-link">Questions</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="ideas.html" title="Ideas" class="cmp-navigation__item-link">Ideas</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="calendar.html" title="Calendar" class="cmp-navigation__item-link">Calendar</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="groups.html" title="Groups" class="cmp-navigation__item-link">Groups</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="luma-platforms.html" title="Forum" class="cmp-navigation__item-link">Forum</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="blog_1.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="files_1.html" title="Files" class="cmp-navigation__item-link">Files</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="ideas_1.html" title="Ideas" class="cmp-navigation__item-link">Ideas</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="calendar_1.html" title="Calendar" class="cmp-navigation__item-link">Calendar</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="activities.html" title="Activities" class="cmp-navigation__item-link">Activities</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="groups_1.html" title="Groups" class="cmp-navigation__item-link">Groups</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="catalog_1.html" title="Catalog" class="cmp-navigation__item-link">Catalog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="assignments_1.html" title="Assignments" class="cmp-navigation__item-link">Assignments</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="members_1.html" title="Members" class="cmp-navigation__item-link">Members</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="members.html" title="Members" class="cmp-navigation__item-link">Members</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="social.html" title="Social" class="cmp-navigation__item-link">Social</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--active">
+        
+    <a href="products.html" title="Products" class="cmp-navigation__item-link">Products</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="women_1.html" title="Women" class="cmp-navigation__item-link">Women</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="tops.html" title="Tops" class="cmp-navigation__item-link">Tops</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="hoodies.html" title="Hoodies" class="cmp-navigation__item-link">Hoodies</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="jackets_1.html" title="Jackets" class="cmp-navigation__item-link">Jackets</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="tees.html" title="Tees" class="cmp-navigation__item-link">Tees</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="bras_tanks.html" title="Bras &amp; Tanks" class="cmp-navigation__item-link">Bras &amp; Tanks</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="bottoms.html" title="Bottoms" class="cmp-navigation__item-link">Bottoms</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="pants.html" title="Pants" class="cmp-navigation__item-link">Pants</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="shorts.html" title="Shorts" class="cmp-navigation__item-link">Shorts</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1 cmp-navigation__item--active">
+        
+    <a href="men_1.html" title="Men" class="cmp-navigation__item-link">Men</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="tops_1.html" title="Tops" class="cmp-navigation__item-link">Tops</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="jackets.html" title="Jackets" class="cmp-navigation__item-link">Jackets</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="hoodies_sweatshirts.html" title="Hoodies &amp; Sweatshirts" class="cmp-navigation__item-link">Hoodies &amp; Sweatshirts</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="tees_1.html" title="Tees" class="cmp-navigation__item-link">Tees</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="tanks.html" title="Tanks" class="cmp-navigation__item-link">Tanks</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2 cmp-navigation__item--active">
+        
+    <a href="bottoms_1.html" title="Bottoms" class="cmp-navigation__item-link">Bottoms</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3 cmp-navigation__item--active">
+        
+    <a href="pants_1.html" title="Pants" class="cmp-navigation__item-link">Pants</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="shorts_1.html" title="Shorts" class="cmp-navigation__item-link">Shorts</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="gear.html" title="Gear" class="cmp-navigation__item-link">Gear</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="bags.html" title="Bags" class="cmp-navigation__item-link">Bags</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="push-it-messenger-bag.html" title="Push It Messenger Bag" class="cmp-navigation__item-link">Push It Messenger Bag</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="driven-backpack.html" title="Driven Backpack" class="cmp-navigation__item-link">Driven Backpack</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="compete-track-tote.html" title="Compete Track Tote" class="cmp-navigation__item-link">Compete Track Tote</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="endeavor-daytrip-backpack.html" title="Endeavor Daytrip Backpack" class="cmp-navigation__item-link">Endeavor Daytrip Backpack</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="impulse-duffle.html" title="Impulse Duffle" class="cmp-navigation__item-link">Impulse Duffle</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="voyage-yoga-bag.html" title="Voyage Yoga Bag" class="cmp-navigation__item-link">Voyage Yoga Bag</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="savvy-shoulder-tote.html" title="Savvy Shoulder Tote" class="cmp-navigation__item-link">Savvy Shoulder Tote</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="overnight-duffle.html" title="Overnight Duffle" class="cmp-navigation__item-link">Overnight Duffle</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="fusion-backpack.html" title="Fusion Backpack" class="cmp-navigation__item-link">Fusion Backpack</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="fitness.html" title="Fitness" class="cmp-navigation__item-link">Fitness</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="harmony-lumaflex-strength-band-kit.html" title="Harmony Lumaflex™ Strength Band Kit" class="cmp-navigation__item-link">Harmony Lumaflex™ Strength Band Kit</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="sprite-foam-yoga-brick.html" title="Sprite Foam Yoga Brick" class="cmp-navigation__item-link">Sprite Foam Yoga Brick</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="sprite-yoga-companion-kit.html" title="Sprite Yoga Companion Kit" class="cmp-navigation__item-link">Sprite Yoga Companion Kit</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="go-get_r-pushup-grips.html" title="Go-Get&#39;r Pushup Grips" class="cmp-navigation__item-link">Go-Get&#39;r Pushup Grips</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="sprite-foam-roller.html" title="Sprite Foam Roller" class="cmp-navigation__item-link">Sprite Foam Roller</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="quest-lumaflex_-band.html" title="Quest Lumaflex™ Band" class="cmp-navigation__item-link">Quest Lumaflex™ Band</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="pursuit-lumaflex-tone-band.html" title="Pursuit Lumaflex™ Tone Band" class="cmp-navigation__item-link">Pursuit Lumaflex™ Tone Band</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="sprite-yoga-straps.html" title="Sprite Yoga Straps" class="cmp-navigation__item-link">Sprite Yoga Straps</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="dual-handle-cardio-ball.html" title="Dual Handle Cardio Ball" class="cmp-navigation__item-link">Dual Handle Cardio Ball</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="affirm-water-bottle.html" title="Affirm Water Bottle" class="cmp-navigation__item-link">Affirm Water Bottle</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="zing-jump-rope.html" title="Zing Jump Rope" class="cmp-navigation__item-link">Zing Jump Rope</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="watches.html" title="Watches" class="cmp-navigation__item-link">Watches</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="didi-sport-watch.html" title="Didi Sport Watch" class="cmp-navigation__item-link">Didi Sport Watch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="bolo-sport-watch.html" title="Bolo Sport Watch" class="cmp-navigation__item-link">Bolo Sport Watch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="luma-analog-watch.html" title="Luma Analog Watch" class="cmp-navigation__item-link">Luma Analog Watch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="summit-watch.html" title="Summit Watch" class="cmp-navigation__item-link">Summit Watch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="clamber-watch.html" title="Clamber Watch" class="cmp-navigation__item-link">Clamber Watch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="endurance-watch.html" title="Endurance Watch" class="cmp-navigation__item-link">Endurance Watch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="cruise-dual-analog-watch.html" title="Cruise Dual Analog Watch" class="cmp-navigation__item-link">Cruise Dual Analog Watch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="dash-digital-watch.html" title="Dash Digital Watch" class="cmp-navigation__item-link">Dash Digital Watch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="aim-analog-watch.html" title="Aim Analog Watch" class="cmp-navigation__item-link">Aim Analog Watch</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="community.html" title="Community" class="cmp-navigation__item-link">Community</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="trending_1.html" title="Trending" class="cmp-navigation__item-link">Trending</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="forum_1.html" title="Forum" class="cmp-navigation__item-link">Forum</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="files_4.html" title="Files" class="cmp-navigation__item-link">Files</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="catalog_4.html" title="Catalog" class="cmp-navigation__item-link">Catalog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="assignments_2.html" title="Assignments" class="cmp-navigation__item-link">Assignments</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="blog_2.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="questions_1.html" title="Questions" class="cmp-navigation__item-link">Questions</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="ideas_3.html" title="Ideas" class="cmp-navigation__item-link">Ideas</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="calendar_4.html" title="Calendar" class="cmp-navigation__item-link">Calendar</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="groups_7.html" title="Groups" class="cmp-navigation__item-link">Groups</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="hiking.html" title="Forum" class="cmp-navigation__item-link">Forum</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="blog_3.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="files_3.html" title="Files" class="cmp-navigation__item-link">Files</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="ideas_2.html" title="Ideas" class="cmp-navigation__item-link">Ideas</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="calendar_2.html" title="Calendar" class="cmp-navigation__item-link">Calendar</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="activities_1.html" title="Activities" class="cmp-navigation__item-link">Activities</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="groups_3.html" title="Groups" class="cmp-navigation__item-link">Groups</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="catalog_2.html" title="Catalog" class="cmp-navigation__item-link">Catalog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="assignments_3.html" title="Assignments" class="cmp-navigation__item-link">Assignments</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="members_6.html" title="Members" class="cmp-navigation__item-link">Members</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="running.html" title="Forum" class="cmp-navigation__item-link">Forum</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="blog_6.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="files_2.html" title="Files" class="cmp-navigation__item-link">Files</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="ideas_4.html" title="Ideas" class="cmp-navigation__item-link">Ideas</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="calendar_3.html" title="Calendar" class="cmp-navigation__item-link">Calendar</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="activities_3.html" title="Activities" class="cmp-navigation__item-link">Activities</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="groups_2.html" title="Groups" class="cmp-navigation__item-link">Groups</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="catalog_6.html" title="Catalog" class="cmp-navigation__item-link">Catalog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="assignments_4.html" title="Assignments" class="cmp-navigation__item-link">Assignments</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="members_5.html" title="Members" class="cmp-navigation__item-link">Members</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="wintersports.html" title="Forum" class="cmp-navigation__item-link">Forum</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="blog_4.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="files_5.html" title="Files" class="cmp-navigation__item-link">Files</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="ideas_6.html" title="Ideas" class="cmp-navigation__item-link">Ideas</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="calendar_5.html" title="Calendar" class="cmp-navigation__item-link">Calendar</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="activities_2.html" title="Activities" class="cmp-navigation__item-link">Activities</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="groups_4.html" title="Groups" class="cmp-navigation__item-link">Groups</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="catalog_3.html" title="Catalog" class="cmp-navigation__item-link">Catalog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="assignments_5.html" title="Assignments" class="cmp-navigation__item-link">Assignments</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="members_7.html" title="Members" class="cmp-navigation__item-link">Members</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="skiing.html" title="Forum" class="cmp-navigation__item-link">Forum</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="blog_5.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="files_7.html" title="Files" class="cmp-navigation__item-link">Files</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="ideas_5.html" title="Ideas" class="cmp-navigation__item-link">Ideas</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="calendar_6.html" title="Calendar" class="cmp-navigation__item-link">Calendar</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="activities_5.html" title="Activities" class="cmp-navigation__item-link">Activities</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="groups_5.html" title="Groups" class="cmp-navigation__item-link">Groups</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="catalog_5.html" title="Catalog" class="cmp-navigation__item-link">Catalog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="assignments_6.html" title="Assignments" class="cmp-navigation__item-link">Assignments</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="members_2.html" title="Members" class="cmp-navigation__item-link">Members</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-2">
+        
+    <a href="surfing.html" title="Forum" class="cmp-navigation__item-link">Forum</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="blog_7.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="files_6.html" title="Files" class="cmp-navigation__item-link">Files</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="ideas_7.html" title="Ideas" class="cmp-navigation__item-link">Ideas</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="calendar_7.html" title="Calendar" class="cmp-navigation__item-link">Calendar</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="activities_4.html" title="Activities" class="cmp-navigation__item-link">Activities</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="groups_6.html" title="Groups" class="cmp-navigation__item-link">Groups</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="catalog_7.html" title="Catalog" class="cmp-navigation__item-link">Catalog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="assignments_7.html" title="Assignments" class="cmp-navigation__item-link">Assignments</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-3">
+        
+    <a href="members_3.html" title="Members" class="cmp-navigation__item-link">Members</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="members_4.html" title="Members" class="cmp-navigation__item-link">Members</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="social_1.html" title="Social" class="cmp-navigation__item-link">Social</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+                <li class="visible-xs visible-sm divider" role="separator"></li>
+                <li class="visible-xs visible-sm"><a href="signin.html" style="color: #1979c3 !important;">Login</a></li>
+                
+                
+                
+                
+                
+                <li class="visible-xs visible-sm"><a href="#" data-toggle="modal" data-target=".we-LanguageModal"><i class="we-lang-icon we-lang-icon-US"></i> en</a></li>
+            </ul>
+        </div>
+
+        <!-- /.navbar-collapse 
+
+        <div class="navbar-right-outside">
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#navbar-search">
+                <span class="sr-only">Search</span><i class="we-Icon we-Icon--search" aria-hidden="true"></i>
+            </a>
+        </div>
+-->
+        <!-- /.navbar-right-outside -->
+
+        <span class="navbar-shutter"></span>
+    </nav>
+    <!-- /.navbar -->
+</div>
+
+    
+
+<div class="we-SearchModal modal fade " id="navbar-search" role="dialog" data-color="primary">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span><i class="we-Icon we-Icon--search"></i>Search anything</span>
+                <button type="button" class="close" data-dismiss="modal"><span>Close search</span><i class="we-Icon we-Icon--close-alt"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <div class="we-search">
+<section class="cmp-search" role="search" data-cmp-is="search" data-cmp-min-length="3" data-cmp-results-size="10">
+    <form class="cmp-search__form" data-cmp-hook-search="form" method="get" action="/en/products/men/bottoms/pants.searchresults.json/_jcr_content/root/header_1440674550/search" autocomplete="off">
+        <div class="cmp-search__field">
+            <i class="cmp-search__icon" data-cmp-hook-search="icon"></i>
+            <span class="cmp-search__loading-indicator" data-cmp-hook-search="loadingIndicator"></span>
+            <input class="cmp-search__input" data-cmp-hook-search="input" type="text" name="fulltext" placeholder="Search" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false">
+            <button class="cmp-search__clear" data-cmp-hook-search="clear">
+                <i class="cmp-search__clear-icon"></i>
+            </button>
+        </div>
+    </form>
+    <div class="cmp-search__results" data-cmp-hook-search="results" role="listbox" aria-multiselectable="false"></div>
+    
+<script data-cmp-hook-search="itemTemplate" type="x-template">
+    <a class="cmp-search__item" data-cmp-hook-search="item">
+        <span class="cmp-search__item-title" data-cmp-hook-search="itemTitle"></span>
+    </a>
+</script>
+</section></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.we-SearchModal -->
+
+<div class="we-LanguageModal modal fade" tabindex="-1" role="dialog" data-color="primary">
+    <div class="modal-dialog modal-center modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title text-center">CHOOSE YOUR COUNTRY</h3>
+            </div>
+            <div class="modal-body">
+                <div class="we-languagenavigation">
+<nav class="cmp-languagenavigation">
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-en-US cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-US" title="United States"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-en-US cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="index.html" hreflang="en-US" lang="en-US" rel="alternate" title="English">English</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-es-US cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="es.html" hreflang="es-US" lang="es-US" rel="alternate" title="Español">Español</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-en-CA cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-CA" title="Canada"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-en-CA cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="en_1.html" hreflang="en-CA" lang="en-CA" rel="alternate" title="English">English</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-fr-CA cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="fr.html" hreflang="fr-CA" lang="fr-CA" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-de-CH cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-CH" title="Switzerland"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-de-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="de.html" hreflang="de-CH" lang="de-CH" rel="alternate" title="Deutsch">Deutsch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-fr-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="fr_1.html" hreflang="fr-CH" lang="fr-CH" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-it-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="it.html" hreflang="it-CH" lang="it-CH" rel="alternate" title="Italiano">Italiano</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-DE cmp-languagenavigation__item--langcode-de-DE cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-DE" title="Germany"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-DE cmp-languagenavigation__item--langcode-de-DE cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="de_1.html" hreflang="de-DE" lang="de-DE" rel="alternate" title="Deutsch">Deutsch</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-FR cmp-languagenavigation__item--langcode-fr-FR cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-FR" title="France"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-FR cmp-languagenavigation__item--langcode-fr-FR cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="fr_2.html" hreflang="fr-FR" lang="fr-FR" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-ES cmp-languagenavigation__item--langcode-es-ES cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-ES" title="Spain"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-ES cmp-languagenavigation__item--langcode-es-ES cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="es_1.html" hreflang="es-ES" lang="es-ES" rel="alternate" title="Español">Español</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-IT cmp-languagenavigation__item--langcode-it-IT cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-IT" title="Italy"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-IT cmp-languagenavigation__item--langcode-it-IT cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="it_1.html" hreflang="it-IT" lang="it-IT" rel="alternate" title="Italiano">Italiano</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+
+            </div>
+        </div>
+        <div class="modal-after">
+            <a href="#" data-dismiss="modal"><i class="we-Icon we-Icon--close-alt"></i> Close</a>
+        </div>
+    </div>
+</div><!-- /.we-LanguageModal -->
+
+</div>
+</div>
+<div class="we-breadcrumb aem-GridColumn aem-GridColumn--default--12">
+<nav class="cmp-breadcrumb">
+    <ol class="cmp-breadcrumb__list">
+        <li class="cmp-breadcrumb__item">
+            <a href="products.html" class="cmp-breadcrumb__item-link">Products</a>
+        </li>
+    
+        <li class="cmp-breadcrumb__item">
+            <a href="men_1.html" class="cmp-breadcrumb__item-link">Men</a>
+        </li>
+    
+        <li class="cmp-breadcrumb__item">
+            <a href="bottoms_1.html" class="cmp-breadcrumb__item-link">Bottoms</a>
+        </li>
+    
+        <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active">
+            Pants
+        </li>
+    </ol>
+</nav>
+
+    
+
+</div>
+<div class="title aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-title">
+    <h1 class="cmp-title__text">Pants</h1>
+</div>
+
+    
+
+</div>
+<div class="responsivegrid aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--default--0">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--tablet--12 aem-Grid--phone--12 ">
+    
+    <div class="responsivegrid aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--3 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--phone--5 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--2">
+
+<div class="aem-Grid aem-Grid--2 aem-Grid--default--2 ">
+    
+    <div class="productfilter parbase aem-GridColumn aem-GridColumn--default--2">
+<div class="we-product-filter">
+    <we-product-filter type="color">
+        <div class="we-ProductFilter we-ProductFilter-collapsible">
+            <div class="we-ProductFilter-header">
+                <span class="we-ProductFilter-name">Colors</span>
+                <span class="we-ProductFilter-toggle">
+                    <i class="we-Icon we-Icon--close"></i>
+                </span>
+            </div>
+            <div class="we-ProductFilter-values">
+                <div class="we-Product-radio marker checkbox-inline" v-for="color in filters.color" v-cloak>
+                    <label>
+                        <input type="checkbox" name="product-color" v-on:click="onFilterClick('color', color, $event)" v-bind:value="color" v-bind:title="color" v-bind:style="'background-color:red' + color + ';'">
+                       <div v-bind:style="'background-color:' + color" class="responsive-color"></div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- /.we-ProductFilter -->
+    </we-product-filter>
+</div></div>
+<div class="productfilter parbase aem-GridColumn aem-GridColumn--default--2">
+<div class="we-product-filter">
+    <we-product-filter type="price">
+        <div class="we-ProductFilter we-ProductFilter-collapsible">
+            <div class="we-ProductFilter-header">
+                <span class="we-ProductFilter-name">Price</span>
+        <span class="we-ProductFilter-toggle">
+            <i class="we-Icon we-Icon--close"></i>
+        </span>
+            </div>
+            <div class="we-ProductFilter-values">
+                <div class="checkbox" v-for="price in filters.price">
+                    <label>
+                        <input type="checkbox" v-on:click="onFilterClick('price', price.list, $event)">
+                        {{price.label}}
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- /.we-ProductFilter -->
+    </we-product-filter>
+</div></div>
+<div class="productfilter parbase aem-GridColumn aem-GridColumn--default--2">
+<div class="we-product-filter">
+    <div class="we-ProductFilter we-ProductFilter-collapsible">
+        <div class="we-ProductFilter-header">
+            <span class="we-ProductFilter-name">Sizes</span>
+        <span class="we-ProductFilter-toggle">
+            <i class="we-Icon we-Icon--close"></i>
+        </span>
+        </div>
+        <div class="we-ProductFilter-values">
+            <div class="checkbox" v-for="size in filters.size">
+                <label>
+                    <input type="checkbox" v-on:click="onFilterClick('size', size, $event)">
+                    {{size}}
+                </label>
+            </div>
+        </div>
+    </div>
+    <!-- /.we-ProductFilter -->
+</div></div>
+
+    
+</div></div>
+<div class="we-productgrid aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--7 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--tablet--9 aem-GridColumn--default--10 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
+<div class="we-product-grid-container">
+    <ul class="foundation-ordered-list-container">
+        
+<li class="foundation-list-item">
+    <we-product-item price="$59.20" color="tan,green,blue" size="33,34,36,32" inline-template>
+        <div class="we-ProductsGrid-item">
+            <div class="we-ProductsGrid-item-image img-center" style="padding-top:24px;">
+                <div id="cq-image-jsp-/en/products/men/bottoms/pants/aether-gym-pant/jcr:content/root/product/assets/asset"><img src="images/cq_ck_1542229437664.jpg" alt="mp11-brown_main" title="mp11-brown_main" class="cq-dd-image"></div>
+
+
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/luma\/us\/en\/products\/men\/bottoms\/pants\/aether\u002Dgym\u002Dpant\/jcr:content\/root\/product\/assets\/asset");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/luma/en/products/men/bottoms/pants/mp11-brown_main.jpg", imageTitle: "mp11\u002Dbrown_main" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "commerce\/components\/product\/image"})');
+        }
+        
+    })();
+</script>
+
+
+            </div>
+
+            <h3 class="we-ProductsGrid-item-title h4">Aether Gym Pant</h3>
+
+
+<!--
+            <span class="we-ProductsGrid-item-subtitle small text-muted"></span>
+-->
+
+            <strong class="we-ProductsGrid-item-price">
+                <span>$59.20</span>
+                <span class="we-ProductsGrid-item-price-new"></span>
+                <s class="we-ProductsGrid-item-price-old"></s>
+            </strong>
+
+            <span class="we-ProductsGrid-item-discount hidden"><span></span>off</span>
+            <a href="aether-gym-pant.html" class="we-ProductsGrid-item-link"></a>
+
+        </div>
+        <!-- /.we-ProductsGrid-item -->
+    </we-product-item>
+</li>
+    
+        
+<li class="foundation-list-item">
+    <we-product-item price="$38.40" color="red,black" size="33,34,36,32" inline-template>
+        <div class="we-ProductsGrid-item">
+            <div class="we-ProductsGrid-item-image img-center" style="padding-top:24px;">
+                <div id="cq-image-jsp-/en/products/men/bottoms/pants/cronus-yoga-pant/jcr:content/root/product/assets/asset"><img src="images/cq_ck_1542229438503.jpg" alt="mp12-black_main" title="mp12-black_main" class="cq-dd-image"></div>
+
+
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/luma\/us\/en\/products\/men\/bottoms\/pants\/cronus\u002Dyoga\u002Dpant\/jcr:content\/root\/product\/assets\/asset");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/luma/en/products/men/bottoms/pants/mp12-black_main.jpg", imageTitle: "mp12\u002Dblack_main" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "commerce\/components\/product\/image"})');
+        }
+        
+    })();
+</script>
+
+
+            </div>
+
+            <h3 class="we-ProductsGrid-item-title h4">Cronus Yoga Pant </h3>
+
+
+<!--
+            <span class="we-ProductsGrid-item-subtitle small text-muted"></span>
+-->
+
+            <strong class="we-ProductsGrid-item-price">
+                <span>$38.40</span>
+                <span class="we-ProductsGrid-item-price-new"></span>
+                <s class="we-ProductsGrid-item-price-old"></s>
+            </strong>
+
+            <span class="we-ProductsGrid-item-discount hidden"><span></span>off</span>
+            <a href="cronus-yoga-pant.html" class="we-ProductsGrid-item-link"></a>
+
+        </div>
+        <!-- /.we-ProductsGrid-item -->
+    </we-product-item>
+</li>
+    
+        
+<li class="foundation-list-item">
+    <we-product-item price="$52.80" color="green,blue,black" size="33,34,36,32" inline-template>
+        <div class="we-ProductsGrid-item">
+            <div class="we-ProductsGrid-item-image img-center" style="padding-top:24px;">
+                <div id="cq-image-jsp-/en/products/men/bottoms/pants/orestes-yoga-pant/jcr:content/root/product/assets/asset"><img src="images/cq_ck_1542229437512.jpg" alt="mp10-black_main" title="mp10-black_main" class="cq-dd-image"></div>
+
+
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/luma\/us\/en\/products\/men\/bottoms\/pants\/orestes\u002Dyoga\u002Dpant\/jcr:content\/root\/product\/assets\/asset");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/luma/en/products/men/bottoms/pants/mp10-black_main.jpg", imageTitle: "mp10\u002Dblack_main" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "commerce\/components\/product\/image"})');
+        }
+        
+    })();
+</script>
+
+
+            </div>
+
+            <h3 class="we-ProductsGrid-item-title h4">Orestes Yoga Pant</h3>
+
+
+<!--
+            <span class="we-ProductsGrid-item-subtitle small text-muted"></span>
+-->
+
+            <strong class="we-ProductsGrid-item-price">
+                <span>$52.80</span>
+                <span class="we-ProductsGrid-item-price-new"></span>
+                <s class="we-ProductsGrid-item-price-old"></s>
+            </strong>
+
+            <span class="we-ProductsGrid-item-discount hidden"><span></span>off</span>
+            <a href="orestes-yoga-pant.html" class="we-ProductsGrid-item-link"></a>
+
+        </div>
+        <!-- /.we-ProductsGrid-item -->
+    </we-product-item>
+</li>
+    
+        
+<li class="foundation-list-item">
+    <we-product-item price="$60.00" color="red,black" size="33,34,36,32" inline-template>
+        <div class="we-ProductsGrid-item">
+            <div class="we-ProductsGrid-item-image img-center" style="padding-top:24px;">
+                <div id="cq-image-jsp-/en/products/men/bottoms/pants/livingston-all-purpose-tight/jcr:content/root/product/assets/asset"><img src="images/cq_ck_1542229435877.jpg" alt="mp09-black_main" title="mp09-black_main" class="cq-dd-image"></div>
+
+
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/luma\/us\/en\/products\/men\/bottoms\/pants\/livingston\u002Dall\u002Dpurpose\u002Dtight\/jcr:content\/root\/product\/assets\/asset");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/luma/en/products/men/bottoms/pants/mp09-black_main.jpg", imageTitle: "mp09\u002Dblack_main" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "commerce\/components\/product\/image"})');
+        }
+        
+    })();
+</script>
+
+
+            </div>
+
+            <h3 class="we-ProductsGrid-item-title h4">Livingston All-Purpose Tight</h3>
+
+
+<!--
+            <span class="we-ProductsGrid-item-subtitle small text-muted"></span>
+-->
+
+            <strong class="we-ProductsGrid-item-price">
+                <span>$60.00</span>
+                <span class="we-ProductsGrid-item-price-new"></span>
+                <s class="we-ProductsGrid-item-price-old"></s>
+            </strong>
+
+            <span class="we-ProductsGrid-item-discount hidden"><span></span>off</span>
+            <a href="livingston-all-purpose-tight.html" class="we-ProductsGrid-item-link"></a>
+
+        </div>
+        <!-- /.we-ProductsGrid-item -->
+    </we-product-item>
+</li>
+    
+        
+<li class="foundation-list-item">
+    <we-product-item price="$65.60" color="red,green,blue" size="33,34,36,32" inline-template>
+        <div class="we-ProductsGrid-item">
+            <div class="we-ProductsGrid-item-image img-center" style="padding-top:24px;">
+                <div id="cq-image-jsp-/en/products/men/bottoms/pants/zeppelin-yoga-pant/jcr:content/root/product/assets/asset"><img src="images/cq_ck_1542229433812.jpg" alt="mp08-green_main" title="mp08-green_main" class="cq-dd-image"></div>
+
+
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/luma\/us\/en\/products\/men\/bottoms\/pants\/zeppelin\u002Dyoga\u002Dpant\/jcr:content\/root\/product\/assets\/asset");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/luma/en/products/men/bottoms/pants/mp08-green_main.jpg", imageTitle: "mp08\u002Dgreen_main" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "commerce\/components\/product\/image"})');
+        }
+        
+    })();
+</script>
+
+
+            </div>
+
+            <h3 class="we-ProductsGrid-item-title h4">Zeppelin Yoga Pant</h3>
+
+
+<!--
+            <span class="we-ProductsGrid-item-subtitle small text-muted"></span>
+-->
+
+            <strong class="we-ProductsGrid-item-price">
+                <span>$65.60</span>
+                <span class="we-ProductsGrid-item-price-new"></span>
+                <s class="we-ProductsGrid-item-price-old"></s>
+            </strong>
+
+            <span class="we-ProductsGrid-item-discount hidden"><span></span>off</span>
+            <a href="zeppelin-yoga-pant.html" class="we-ProductsGrid-item-link"></a>
+
+        </div>
+        <!-- /.we-ProductsGrid-item -->
+    </we-product-item>
+</li>
+    </ul>
+</div>
+
+    
+
+</div>
+
+    
+</div></div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    
+    
+</div></div>
+<div class="footer aem-GridColumn aem-GridColumn--default--12">
+
+    
+
+
+
+
+
+    <footer class="we-Footer">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="we-Logo we-Logo--big">
+                        <strong>LUMA</strong>
+                    </div>
+                </div>
+
+                <div class="col-md-9 col-sm-12">
+                    <div class="we-navigation">
+<nav class="cmp-navigation">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="experience.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="mindex.html" title="Men" class="cmp-navigation__item-link">Men</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="womindex.html" title="Women" class="cmp-navigation__item-link">Women</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="equipment.html" title="Equipment" class="cmp-navigation__item-link">Equipment</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="about-us.html" title="About Us" class="cmp-navigation__item-link">About Us</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="communityold.html" title="Activities" class="cmp-navigation__item-link">Activities</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--active">
+        
+    <a href="products.html" title="Products" class="cmp-navigation__item-link">Products</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="community.html" title="Community" class="cmp-navigation__item-link">Community</a>
+
+        
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row we-Footer-section we-Footer-section--sub">
+                <div class="we-Footer-section-item">
+                    <span class="text-uppercase text-muted">© 2019 All rights reserved By Adobe Inc.</span>
+                </div>
+                <div class="we-Footer-section-item">
+                    <a href="#" class="text-uppercase text-muted">Terms of use &amp; privacy policy</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <a href="#top" class="btn btn-action btn-action-up btn-primary">Ride to the top</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</div>
+
+    
+</div></div>
+
+</div>
+
+            
+    
+    
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/clientlib-base.js"></script>
+<script type="text/javascript" src="js/clientlib-product-page.js"></script>
+
+
+
+    
+
+    
+    
+<script type="text/javascript" src="js/site.js"></script>
+
+
+
+    
+    
+
+
+    
+
+    
+
+
+            
+
+        
+    </body>
+</html>

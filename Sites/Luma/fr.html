@@ -1,0 +1,1162 @@
+
+<!DOCTYPE HTML>
+<html lang="fr-CA">
+    <head>
+    <meta charset="UTF-8">
+    <title>Français</title>
+    
+    
+    <meta name="template" content="hero-page">
+    
+
+    
+
+    
+    
+<link rel="stylesheet" href="css/clientlib-dependencies.css" type="text/css">
+<script type="text/javascript" src="js/clientlib-dependencies.js"></script>
+
+
+
+    
+    
+<link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="css/site.css" type="text/css">
+<link rel="stylesheet" href="css/clientlib-base.css" type="text/css">
+
+
+
+
+
+
+<script src="js/dje4ayd.js"></script>
+<script>try {
+    Typekit.load({async: true});
+} catch (e) {
+}</script>
+
+
+<script type="text/javascript">
+            (function() {
+                window.ContextHub = window.ContextHub || {};
+
+                /* setting paths */
+                ContextHub.Paths = ContextHub.Paths || {};
+                ContextHub.Paths.CONTEXTHUB_PATH = "/libs/settings/cloudsettings/legacy/contexthub";
+                ContextHub.Paths.RESOURCE_PATH = "\/content\/we\u002Dretail\/ca\/fr\/_jcr_content\/contexthub";
+                ContextHub.Paths.SEGMENTATION_PATH = "\/conf\/we\u002Dretail\/settings\/wcm\/segments";
+                ContextHub.Paths.CQ_CONTEXT_PATH = "";
+
+                /* setting initial constants */
+                ContextHub.Constants = ContextHub.Constants || {};
+                ContextHub.Constants.ANONYMOUS_HOME = "/home/users/O/O-8Uyi-Wv7_jWp7Tatf5";
+                ContextHub.Constants.MODE = "no-ui";
+            }());
+        </script><script src="contexthub" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+window.digitalData = {
+  "page": {
+    "pageInfo": {
+      "breadcrumbs": "we-retail:ca:fr",
+      "pageShortName": "we-retail:[...]:fr",
+      "pageName": "content:we-retail:ca:fr",
+      "destinationURL": "https://publish1034.adobedemo.com/content/we-retail/ca/fr.html",
+      "isIframe": false,
+      "contentIframe": false,
+      "hierarchie1": "we-retail:ca:fr",
+      "title": "Français",
+      "internalPageName": "fr",
+      "pageID": "publish1034.adobedemo.com:content:we-retail:ca:fr",
+      "tagging": "",
+      "server": "publish1034.adobedemo.com",
+      "urlShortcut": ""
+    },
+    "category": {
+      "type": ":conf:we-retail:settings:wcm:templates:hero-page",
+      "version": "2018-10-26"
+    },
+    "attributes": {},
+    "components": []
+  },
+  "product": [
+    {
+      "productInfo": {}
+    }
+  ],
+  "cart": {
+    "productsInCart": 0
+  },
+  "user": [
+    {
+      "profile": [
+        {
+          "profileInfo": {},
+          "attributes": {
+            "loggedIn": false
+          }
+        }
+      ]
+    }
+  ],
+  "pageInstanceID": "s7connect:publish:content:we-retail:ca:fr",
+  "language": "fr"
+};
+window.digitalData.page.pageInfo.referringURL = document.referrer;
+window.digitalData.page.pageInfo.sysEnv = navigator.userAgent;
+</script>
+
+
+
+
+
+    
+    
+    
+
+    
+
+    
+    
+
+    
+</head>
+    <body class="page basicpage">
+        
+        
+            
+
+
+
+            
+<div class="container">
+    <div class="root responsivegrid">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="header aem-GridColumn aem-GridColumn--default--12">
+<div id="top" class="we-retail-header" data-we-header-content="/content/we-retail/ca/fr.header_include.html">
+    
+<div class="navbar navbar-inverse navbar-fixed-top hidden-xs hidden-sm">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-left">
+
+	<!--
+            <li><a href="#" data-toggle="modal" data-target=".we-LanguageModal" title="Français"><i class="we-lang-icon we-lang-icon-CA"></i> fr</a></li>
+-->
+</ul>
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li>
+<div class="we-Cart">
+
+
+    <a class="we-Cart-button" href="#" v-on:click="toggle">
+        <i class="fa fa-shopping-cart"></i>&nbsp Mon panier &nbsp <span class="badge active" v-cloak v-if="cartEntriesSize > 0">{{cartEntriesSize}}</span>
+    </a>
+
+    <cart-content inline-template>
+        <div class="we-Cart-content" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/cart.html" itemscope="itemscope">
+            <div class="we-Cart-header">
+                <div class="we-Cart-headerLeft">
+                    <a href="#" v-on:click="$parent.toggle">
+                        <i class="we-Icon we-Icon--close"></i>
+                    </a>
+                </div>
+                <div class="we-Cart-headerRight">
+                    <span itemprop="totalEntries" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope">{{cartEntriesSize}}</span> article(s) dans le panier
+                </div>
+            </div>
+
+            <div class="we-Cart-empty" v-if="cartEntriesSize == 0">Le panier est vide..</div>
+
+            <div class="we-Cart-data">
+
+                <div class="we-Cart-entries" v-if="cartEntriesSize > 0">
+                    <div class="we-Cart-entry" v-for="(index, cartEntry) in cartEntries" itemprop="entries" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/cartentry.html" itemscope="itemscope">
+
+                        <img class="we-Cart-image" v-bind:src="cartEntry.thumbnail" alt="{{ cartEntry.title }}" itemprop="asset" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+
+                        <div class="we-Cart-entryContent">
+                            <div itemprop="product" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/product.html" itemscope="itemscope">
+                                <meta content="{{ cartEntry.title }}" itemprop="name" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                <a href="#" v-bind:href="cartEntry.page" itemprop="path" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                    <strong>{{ cartEntry.title }}</strong>
+                                </a>
+                                <div class="text-muted">
+                                    <small v-if="cartEntryPromotions(index) && cartEntryPromotions(index).length > 0">
+                                        <span class="text-info" v-for="promotion in cartEntryPromotions(index)" v-html="promotion.message"></span>
+                                    </small>
+                                    <small itemprop="description" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                        {{ cartEntry.description }}
+                                    </small>
+                                    <ul v-if="cartEntry.variant" class="small we-Cart-entryVariants">
+                                        <li v-for="(key, val) in cartEntry.variant">
+                                            <span>{{ key }}</span>: {{ val }}
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="we-Cart-entryQuantity">
+                                <label class="text-muted">Qté:</label>
+                                
+                                
+                                
+                                <span v-if="cartEntry.readonly == true" itemprop="quantity" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope">{{ cartEntry.quantity }}</span>
+                                
+                                <form method="POST" action="/content/we-retail/ca/fr.weretail.modifycartentry.html" v-if="cartEntry.readonly != true">
+                                    <input type="hidden" name="entryNumber" value="{{index}}">
+                                    <input type="hidden" name="redirect" value="/content/we-retail/ca/fr.html">
+                                    <input type="number" name="quantity" v-model="cartEntry.quantity" min="0" step="1" v-on:change.prevent="updateCart" itemprop="quantity" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope">
+                                </form>
+                            </div>
+                            <div class="we-Cart-entryPrice" itemprop="itemPrice" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                <strong>{{ cartEntry.priceFormatted }}</strong>
+                            </div>
+                        </div>
+
+                        <div class="we-Cart-remove">
+                            <form method="POST" action="/content/we-retail/ca/fr.weretail.deletecartentry.html" v-on:click.prevent="updateCart" v-if="cartEntry.readonly != true">
+                                <input type="hidden" name="entryNumber" value="{{index}}">
+                                <input type="hidden" name="redirect" value="/content/we-retail/ca/fr.html">
+                                <button type="submit" class="btn btn-default btn-icon"><i class="text-muted fa fa-times-circle-o"></i></button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="we-Cart-promotions" v-if="orderPromotions && orderPromotions.length > 0">
+                    <span v-for="promotion in orderPromotions" class="we-Cart-promotion" v-html="promotion.message"></span>
+                </div>
+
+                <div class="we-Cart-footer">
+                    <div class="we-Cart-subtotal" v-if="cartEntriesSize > 0">
+                        sub-total: <span itemprop="total" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">{{cartTotalPrice}}</span>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </cart-content>
+</div>
+</li>
+            
+            <li><a href="signin_1.html">Connexion</a></li>
+            
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-absolute-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#we-example-navbar-collapse-inverse" aria-expanded="false">
+                <span class="sr-only">Activer/désactiver la navigation</span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+            </button>
+
+            <button type="button" class="navbar-toggle navbar-toggle-close collapsed" data-toggle="collapse" data-target="#we-example-navbar-collapse-inverse" aria-expanded="false">
+                <span class="sr-only">Activer/désactiver la navigation</span>
+                <i class="we-Icon we-Icon--close"></i>
+            </button>
+
+            <a class="navbar-brand" href="fr.html"> <img src="images/Luma_Logo.png">
+<!--
+<strong>LUMA</strong>
+-->
+
+</a>
+            <div class="pull-right visible-xs visible-sm">
+<div class="we-Cart">
+    <a class="we-Cart-button" href="#" v-on:click="toggle" style="color:#1979c3; font-size: 20px; ">
+        <i class="fa fa-shopping-cart"></i> &nbsp <span class="badge active" v-cloak v-if="cartEntriesSize > 0">{{cartEntriesSize}}</span>
+    </a>
+</div></div>
+        </div>
+
+        <!-- /.navbar-header -->
+        <div class="collapse navbar-collapse width" id="we-example-navbar-collapse-inverse">
+            <ul class="nav navbar-nav navbar-center">
+                <li class="visible-xs visible-sm"><a href="fr.html" style="font-size:24px;"><strong class="text-primary">Luma Mobile Menu</strong></a></li>
+                <div class="we-navigation">
+
+
+    
+
+</div>
+                <li class="visible-xs visible-sm divider" role="separator"></li>
+                <li class="visible-xs visible-sm"><a href="signin_1.html" style="color: #1979c3 !important;">Connexion</a></li>
+                
+                
+                
+                
+                
+                <li class="visible-xs visible-sm"><a href="#" data-toggle="modal" data-target=".we-LanguageModal"><i class="we-lang-icon we-lang-icon-CA"></i> fr</a></li>
+            </ul>
+        </div>
+
+        <!-- /.navbar-collapse 
+
+        <div class="navbar-right-outside">
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#navbar-search">
+                <span class="sr-only">Rechercher</span><i class="we-Icon we-Icon--search" aria-hidden="true"></i>
+            </a>
+        </div>
+-->
+        <!-- /.navbar-right-outside -->
+
+        <span class="navbar-shutter"></span>
+    </nav>
+    <!-- /.navbar -->
+</div>
+
+    
+
+<div class="we-SearchModal modal fade " id="navbar-search" role="dialog" data-color="primary">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span><i class="we-Icon we-Icon--search"></i>Search anything</span>
+                <button type="button" class="close" data-dismiss="modal"><span>Close search</span><i class="we-Icon we-Icon--close-alt"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <div class="we-search">
+<section class="cmp-search" role="search" data-cmp-is="search" data-cmp-min-length="3" data-cmp-results-size="10">
+    <form class="cmp-search__form" data-cmp-hook-search="form" method="get" action="/content/we-retail/ca/fr.searchresults.json/_jcr_content/root/header/search" autocomplete="off">
+        <div class="cmp-search__field">
+            <i class="cmp-search__icon" data-cmp-hook-search="icon"></i>
+            <span class="cmp-search__loading-indicator" data-cmp-hook-search="loadingIndicator"></span>
+            <input class="cmp-search__input" data-cmp-hook-search="input" type="text" name="fulltext" placeholder="Rechercher" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false">
+            <button class="cmp-search__clear" data-cmp-hook-search="clear">
+                <i class="cmp-search__clear-icon"></i>
+            </button>
+        </div>
+    </form>
+    <div class="cmp-search__results" data-cmp-hook-search="results" role="listbox" aria-multiselectable="false"></div>
+    
+<script data-cmp-hook-search="itemTemplate" type="x-template">
+    <a class="cmp-search__item" data-cmp-hook-search="item">
+        <span class="cmp-search__item-title" data-cmp-hook-search="itemTitle"></span>
+    </a>
+</script>
+</section></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.we-SearchModal -->
+
+<div class="we-LanguageModal modal fade" tabindex="-1" role="dialog" data-color="primary">
+    <div class="modal-dialog modal-center modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title text-center">CHOOSE YOUR COUNTRY</h3>
+            </div>
+            <div class="modal-body">
+                <div class="we-languagenavigation">
+<nav class="cmp-languagenavigation">
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-en-US cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-US" title="United States"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-en-US cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="index.html" hreflang="en-US" lang="en-US" rel="alternate" title="English">English</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-es-US cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="es.html" hreflang="es-US" lang="es-US" rel="alternate" title="Español">Español</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-fr-CA cmp-languagenavigation__item--level-0 cmp-languagenavigation__item--active">
+        
+    <i class="we-lang-icon we-lang-icon-CA" title="Canada"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-en-CA cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="en_1.html" hreflang="en-CA" lang="en-CA" rel="alternate" title="English">English</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-fr-CA cmp-languagenavigation__item--level-1 cmp-languagenavigation__item--active">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="fr.html" hreflang="fr-CA" lang="fr-CA" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-fr-CH cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-CH" title="Switzerland"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-de-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="de.html" hreflang="de-CH" lang="de-CH" rel="alternate" title="Deutsch">Deutsch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-fr-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="fr_1.html" hreflang="fr-CH" lang="fr-CH" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-it-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="it.html" hreflang="it-CH" lang="it-CH" rel="alternate" title="Italiano">Italiano</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-DE cmp-languagenavigation__item--langcode-de-DE cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-DE" title="Germany"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-DE cmp-languagenavigation__item--langcode-de-DE cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="de_1.html" hreflang="de-DE" lang="de-DE" rel="alternate" title="Deutsch">Deutsch</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-FR cmp-languagenavigation__item--langcode-fr-FR cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-FR" title="France"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-FR cmp-languagenavigation__item--langcode-fr-FR cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="fr_2.html" hreflang="fr-FR" lang="fr-FR" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-ES cmp-languagenavigation__item--langcode-es-ES cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-ES" title="Spain"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-ES cmp-languagenavigation__item--langcode-es-ES cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="es_1.html" hreflang="es-ES" lang="es-ES" rel="alternate" title="Español">Español</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-IT cmp-languagenavigation__item--langcode-it-IT cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-IT" title="Italy"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-IT cmp-languagenavigation__item--langcode-it-IT cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="it_1.html" hreflang="it-IT" lang="it-IT" rel="alternate" title="Italiano">Italiano</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+
+            </div>
+        </div>
+        <div class="modal-after">
+            <a href="#" data-dismiss="modal"><i class="we-Icon we-Icon--close-alt"></i> Fermer</a>
+        </div>
+    </div>
+</div><!-- /.we-LanguageModal -->
+
+</div>
+</div>
+<div class="we-breadcrumb aem-GridColumn aem-GridColumn--default--12">
+<nav class="cmp-breadcrumb">
+    <ol class="cmp-breadcrumb__list">
+        <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active">
+            Français
+        </li>
+    </ol>
+</nav>
+
+    
+
+</div>
+<div class="target parbase aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+    
+
+
+            <script type="text/javascript">
+                if (window.ContextHub && ContextHub.SegmentEngine) {
+                    ContextHubJQ(function() {
+                        ContextHub.eventing.on(ContextHub.Constants.EVENT_TEASER_LOADED, function(event, data){
+                            data.data.forEach(function(evData) {
+                                if (evData.key === "_content_we\u002Dretail_ca_fr_jcr_content_root_hero_image") {
+                                    $CQ("#_content_we-retail_ca_fr_jcr_content_root_hero_image").css('visibility', 'visible');
+                                }
+                            });
+                        });
+                        ContextHub.SegmentEngine.PageInteraction.Teaser({
+                            locationId: '_content_we\u002Dretail_ca_fr_jcr_content_root_hero_image',
+                            variants: [{"path":"/content/campaigns/we-retail/master/offer-library/home-page-hero/summer--female","name":"summer--female","title":"Women in Summer","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-summer/summer--female.thumb.png","id":"we-retail-home-page-personalization-activity_summer--female","url":"/content/campaigns/we-retail/master/offer-library/home-page-hero/summer--female/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/summer-female"],"tags":[]},{"path":"/content/campaigns/we-retail/master/offer-library/home-page-hero/summer--male","name":"summer--male","title":"Men in Summer","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-summer/summer--male.thumb.png","id":"we-retail-home-page-personalization-activity_summer--male","url":"/content/campaigns/we-retail/master/offer-library/home-page-hero/summer--male/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/summer-male"],"tags":[]},{"path":"/content/campaigns/we-retail/master/offer-library/home-page-hero/winter--female","name":"winter--female","title":"Women in Winter","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-winter/winter--female.thumb.png","id":"we-retail-home-page-personalization-activity_winter--female","url":"/content/campaigns/we-retail/master/offer-library/home-page-hero/winter--female/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/winter-female"],"tags":[]},{"path":"/content/campaigns/we-retail/master/offer-library/home-page-hero/winter--male","name":"winter--male","title":"Men in Winter","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-winter/winter--male.thumb.png","id":"we-retail-home-page-personalization-activity_winter--male","url":"/content/campaigns/we-retail/master/offer-library/home-page-hero/winter--male/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/winter-male"],"tags":[]},{"path":"/content/we-retail/ca/fr/default","name":"default","title":"Default","campaignName":"","thumbnail":"/content/we-retail/ca/fr.thumb.png","url":"/content/we-retail/ca/fr/_jcr_content/root/hero_image.default.html","tags":[]}],
+                            strategy: 'first',
+                            trackingURL: null
+                        });
+
+                        // Make the targeted content visible if no teasers were loaded after 5s
+                        setTimeout(function(){
+                            $CQ("#_content_we-retail_ca_fr_jcr_content_root_hero_image").css('visibility', 'visible');
+                        }, 5000);
+                    });
+                } else {
+                    $CQ("#_content_we-retail_ca_fr_jcr_content_root_hero_image").css('visibility', 'visible');
+                }
+            </script>
+        
+
+        <div id="_content_we-retail_ca_fr_jcr_content_root_hero_image" class="campaign " style="visibility: hidden">
+        <div class="heroimage cmp-image">
+
+    <div class="we-HeroImage width-full jumbotron" style="background-image: url('images/1540574882599_1.jpeg');">
+        <div class="container cq-dd-image">
+            <div class="we-HeroImage-wrapper">
+                <p class="h3">All-new winter collection</p>
+                <strong class="we-HeroImage-title h1">Built for the coldest winter on earth</strong>
+
+                <p>
+                    Shop Now
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+        </div>
+
+
+
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--phone--12 ">
+    
+    <div class="title aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-title">
+    <h2 class="cmp-title__text">Discover the Finest Gear</h2>
+</div>
+
+    
+
+</div>
+<div class="target parbase aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+
+
+
+
+
+    
+
+
+            <script type="text/javascript">
+                if (window.ContextHub && ContextHub.SegmentEngine) {
+                    ContextHubJQ(function() {
+                        ContextHub.eventing.on(ContextHub.Constants.EVENT_TEASER_LOADED, function(event, data){
+                            data.data.forEach(function(evData) {
+                                if (evData.key === "_content_we\u002Dretail_ca_fr_jcr_content_root_responsivegrid_category_teaser") {
+                                    $CQ("#_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser").css('visibility', 'visible');
+                                }
+                            });
+                        });
+                        ContextHub.SegmentEngine.PageInteraction.Teaser({
+                            locationId: '_content_we\u002Dretail_ca_fr_jcr_content_root_responsivegrid_category_teaser',
+                            variants: [{"path":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-summer/en-category_teaser","name":"en-category_teaser","title":"Women in Summer","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-summer/en-category_teaser.thumb.png","id":"we-retail-home-page-personalization-activity_en-category_teaser","url":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-summer/en-category_teaser/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/summer-female"],"tags":[]},{"path":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-summer/en-category_teaser","name":"en-category_teaser","title":"Men in Summer","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-summer/en-category_teaser.thumb.png","id":"we-retail-home-page-personalization-activity_en-category_teaser","url":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-summer/en-category_teaser/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/summer-male"],"tags":[]},{"path":"/content/campaigns/we-retail/master/offer-library/category-teaser/women-ski-touring-category-teaser","name":"women-ski-touring-category-teaser","title":"Women in Winter","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-winter/women-ski-touring-category-teaser.thumb.png","id":"we-retail-home-page-personalization-activity_women-ski-touring-category-teaser","url":"/content/campaigns/we-retail/master/offer-library/category-teaser/women-ski-touring-category-teaser/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/winter-female"],"tags":[]},{"path":"/content/campaigns/we-retail/master/offer-library/category-teaser/women-ski-touring-category-teaser","name":"women-ski-touring-category-teaser","title":"Men in Winter","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-winter/women-ski-touring-category-teaser.thumb.png","id":"we-retail-home-page-personalization-activity_women-ski-touring-category-teaser","url":"/content/campaigns/we-retail/master/offer-library/category-teaser/women-ski-touring-category-teaser/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/winter-male"],"tags":[]},{"path":"/content/we-retail/ca/fr/default","name":"default","title":"Default","campaignName":"","thumbnail":"/content/we-retail/ca/fr.thumb.png","url":"/content/we-retail/ca/fr/_jcr_content/root/responsivegrid/category_teaser.default.html","tags":[]}],
+                            strategy: 'first',
+                            trackingURL: null
+                        });
+
+                        // Make the targeted content visible if no teasers were loaded after 5s
+                        setTimeout(function(){
+                            $CQ("#_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser").css('visibility', 'visible');
+                        }, 5000);
+                    });
+                } else {
+                    $CQ("#_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser").css('visibility', 'visible');
+                }
+            </script>
+        
+
+        <div id="_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser" class="campaign " style="visibility: hidden">
+        <div class="default categoryteaser image">
+<div class="we-CategoryTeaser">
+    <div class="crop crop-16_9 cmp cmp-image">
+<div data-cmp-is="image" data-cmp-src="/content/we-retail/ca/fr/_jcr_content/root/responsivegrid/category_teaser/default.coreimg{.width}.jpeg/1540574597127.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/activities/running/running-woods-woman.jpg" data-title="Running Woods Woman" class="cmp-image">
+    
+        <noscript data-cmp-hook-image="noscript">
+            <img src="images/1540574597127_1.jpeg" class="cmp-image__image" data-cmp-hook-image="image" alt="Woman running in wooded forest area, training and exercising for trail run marathon endurance" title="Running Woods Woman">
+        </noscript>
+    
+    
+</div>
+
+    
+
+</div>
+
+    <h2></h2>
+    <h3></h3>
+    
+    <a href="women_5.html" class="btn btn-action btn-primary">Women</a>
+</div>
+</div>
+
+        </div>
+
+
+
+</div>
+<div class="target parbase aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+
+
+
+
+
+    
+
+
+            <script type="text/javascript">
+                if (window.ContextHub && ContextHub.SegmentEngine) {
+                    ContextHubJQ(function() {
+                        ContextHub.eventing.on(ContextHub.Constants.EVENT_TEASER_LOADED, function(event, data){
+                            data.data.forEach(function(evData) {
+                                if (evData.key === "_content_we\u002Dretail_ca_fr_jcr_content_root_responsivegrid_category_teaser_859708776") {
+                                    $CQ("#_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser_859708776").css('visibility', 'visible');
+                                }
+                            });
+                        });
+                        ContextHub.SegmentEngine.PageInteraction.Teaser({
+                            locationId: '_content_we\u002Dretail_ca_fr_jcr_content_root_responsivegrid_category_teaser_859708776',
+                            variants: [{"path":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-summer/en-category_teaser_859708776","name":"en-category_teaser_859708776","title":"Women in Summer","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-summer/en-category_teaser_859708776.thumb.png","id":"we-retail-home-page-personalization-activity_en-category_teaser_859708776","url":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-summer/en-category_teaser_859708776/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/summer-female"],"tags":[]},{"path":"/content/campaigns/we-retail/master/offer-library/category-teaser/summer-teaser","name":"summer-teaser","title":"Men in Summer","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-summer/summer-teaser.thumb.png","id":"we-retail-home-page-personalization-activity_summer-teaser","url":"/content/campaigns/we-retail/master/offer-library/category-teaser/summer-teaser/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/summer-male"],"tags":[]},{"path":"/content/campaigns/we-retail/master/offer-library/category-teaser/winter-teaser","name":"winter-teaser","title":"Women in Winter","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-winter/winter-teaser.thumb.png","id":"we-retail-home-page-personalization-activity_winter-teaser","url":"/content/campaigns/we-retail/master/offer-library/category-teaser/winter-teaser/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/winter-female"],"tags":[]},{"path":"/content/campaigns/we-retail/master/offer-library/category-teaser/winter-teaser","name":"winter-teaser","title":"Men in Winter","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-winter/winter-teaser.thumb.png","id":"we-retail-home-page-personalization-activity_winter-teaser","url":"/content/campaigns/we-retail/master/offer-library/category-teaser/winter-teaser/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/winter-male"],"tags":[]},{"path":"/content/we-retail/ca/fr/default","name":"default","title":"Default","campaignName":"","thumbnail":"/content/we-retail/ca/fr.thumb.png","url":"/content/we-retail/ca/fr/_jcr_content/root/responsivegrid/category_teaser_859708776.default.html","tags":[]}],
+                            strategy: 'first',
+                            trackingURL: null
+                        });
+
+                        // Make the targeted content visible if no teasers were loaded after 5s
+                        setTimeout(function(){
+                            $CQ("#_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser_859708776").css('visibility', 'visible');
+                        }, 5000);
+                    });
+                } else {
+                    $CQ("#_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser_859708776").css('visibility', 'visible');
+                }
+            </script>
+        
+
+        <div id="_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser_859708776" class="campaign " style="visibility: hidden">
+        <div class="default categoryteaser image">
+<div class="we-CategoryTeaser">
+    <div class="crop crop-16_9 cmp cmp-image">
+<div data-cmp-is="image" data-cmp-src="/content/we-retail/ca/fr/_jcr_content/root/responsivegrid/category_teaser_859708776/default.coreimg{.width}.jpeg/1540574638830.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/activities/biking/rocks-downhill.jpg" data-title="Rocks Downhill" class="cmp-image">
+    
+        <noscript data-cmp-hook-image="noscript">
+            <img src="images/1540574638830_1.jpeg" class="cmp-image__image" data-cmp-hook-image="image" alt="Rider in action at Freestyle Mountain Bike Session" title="Rocks Downhill">
+        </noscript>
+    
+    
+</div>
+
+    
+
+</div>
+
+    <h2></h2>
+    <h3></h3>
+    
+    <a href="men_5.html" class="btn btn-action btn-primary">Men</a>
+</div>
+</div>
+
+        </div>
+
+
+
+</div>
+<div class="target parbase aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+
+
+
+
+
+    
+
+
+            <script type="text/javascript">
+                if (window.ContextHub && ContextHub.SegmentEngine) {
+                    ContextHubJQ(function() {
+                        ContextHub.eventing.on(ContextHub.Constants.EVENT_TEASER_LOADED, function(event, data){
+                            data.data.forEach(function(evData) {
+                                if (evData.key === "_content_we\u002Dretail_ca_fr_jcr_content_root_responsivegrid_category_teaser_465639357") {
+                                    $CQ("#_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser_465639357").css('visibility', 'visible');
+                                }
+                            });
+                        });
+                        ContextHub.SegmentEngine.PageInteraction.Teaser({
+                            locationId: '_content_we\u002Dretail_ca_fr_jcr_content_root_responsivegrid_category_teaser_465639357',
+                            variants: [{"path":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-summer/en-category_teaser_465639357","name":"en-category_teaser_465639357","title":"Women in Summer","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-summer/en-category_teaser_465639357.thumb.png","id":"we-retail-home-page-personalization-activity_en-category_teaser_465639357","url":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-summer/en-category_teaser_465639357/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/summer-female"],"tags":[]},{"path":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-summer/en-category_teaser_465639357","name":"en-category_teaser_465639357","title":"Men in Summer","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-summer/en-category_teaser_465639357.thumb.png","id":"we-retail-home-page-personalization-activity_en-category_teaser_465639357","url":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-summer/en-category_teaser_465639357/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/summer-male"],"tags":[]},{"path":"/content/campaigns/we-retail/master/offer-library/category-teaser/winter-equipment-category-teaser","name":"winter-equipment-category-teaser","title":"Women in Winter","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/women-in-winter/winter-equipment-category-teaser.thumb.png","id":"we-retail-home-page-personalization-activity_winter-equipment-category-teaser","url":"/content/campaigns/we-retail/master/offer-library/category-teaser/winter-equipment-category-teaser/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/winter-female"],"tags":[]},{"path":"/content/campaigns/we-retail/master/offer-library/category-teaser/winter-equipment-category-teaser","name":"winter-equipment-category-teaser","title":"Men in Winter","campaignName":"we-retail-home-page-personalization-activity","campaignPath":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity","thumbnail":"/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity/men-in-winter/winter-equipment-category-teaser.thumb.png","id":"we-retail-home-page-personalization-activity_winter-equipment-category-teaser","url":"/content/campaigns/we-retail/master/offer-library/category-teaser/winter-equipment-category-teaser/_jcr_content/par.html","segments":["/conf/we-retail/settings/wcm/segments/winter-male"],"tags":[]},{"path":"/content/we-retail/ca/fr/default","name":"default","title":"Default","campaignName":"","thumbnail":"/content/we-retail/ca/fr.thumb.png","url":"/content/we-retail/ca/fr/_jcr_content/root/responsivegrid/category_teaser_465639357.default.html","tags":[]}],
+                            strategy: 'first',
+                            trackingURL: null
+                        });
+
+                        // Make the targeted content visible if no teasers were loaded after 5s
+                        setTimeout(function(){
+                            $CQ("#_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser_465639357").css('visibility', 'visible');
+                        }, 5000);
+                    });
+                } else {
+                    $CQ("#_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser_465639357").css('visibility', 'visible');
+                }
+            </script>
+        
+
+        <div id="_content_we-retail_ca_fr_jcr_content_root_responsivegrid_category_teaser_465639357" class="campaign " style="visibility: hidden">
+        <div class="default categoryteaser image">
+<div class="we-CategoryTeaser">
+    <div class="crop crop-16_9 cmp cmp-image">
+<div data-cmp-is="image" data-cmp-src="/content/we-retail/ca/fr/_jcr_content/root/responsivegrid/category_teaser_465639357/default.coreimg{.width}.jpeg/1540575251509.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/activities/climbing/climber-gear-rope.jpg" data-title="Climber Gear Rope" class="cmp-image">
+    
+        <noscript data-cmp-hook-image="noscript">
+            <img src="images/1540575251509_1.jpeg" class="cmp-image__image" data-cmp-hook-image="image" alt="Climber woman wearing in safety harness with equipment holding rope and preparing to climb" title="Climber Gear Rope">
+        </noscript>
+    
+    
+</div>
+
+    
+
+</div>
+
+    <h2></h2>
+    <h3></h3>
+    
+    <a href="equipment_3.html" class="btn btn-action btn-primary">Equipment</a>
+</div>
+</div>
+
+        </div>
+
+
+
+</div>
+<div class="sitefeature aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+<div class="text-center we-SiteFeature">
+    <i class="we-Icon we-Icon--shoping-cart-alt"></i>
+    <h4 class="we-SiteFeature-header">
+        Free delivery
+        <small>And free return</small>
+    </h4>
+</div></div>
+<div class="sitefeature aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+<div class="text-center we-SiteFeature">
+    <i class="we-Icon we-Icon--compass"></i>
+    <h4 class="we-SiteFeature-header">
+        Order tracking
+        <small>Worldwide shipping</small>
+    </h4>
+</div></div>
+<div class="sitefeature aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+<div class="text-center we-SiteFeature">
+    <i class="we-Icon we-Icon--headphones"></i>
+    <h4 class="we-SiteFeature-header">
+        Online support
+        <small>With our outdoor specialist</small>
+    </h4>
+</div></div>
+<div class="title aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-title">
+    <h2 class="cmp-title__text">Featured Products</h2>
+</div>
+
+    
+
+</div>
+<div class="we-productgrid aem-GridColumn aem-GridColumn--default--12">
+<div class="we-product-grid-container">
+    
+</div>
+
+    
+
+</div>
+<div class="title aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-title">
+    <h2 class="cmp-title__text">Our Top Stories</h2>
+</div>
+
+    
+
+</div>
+<div class="we-list we-list--grid we-list--teaser we-list--image aem-GridColumn aem-GridColumn--default--12">
+<ul class="cmp-list">
+    <li class="cmp-list__item">
+    <article>
+        <a class="cmp-list__item-link" href="beginners-luck_2.html">
+            
+<div data-cmp-is="image" data-cmp-src="/content/we-retail/language-masters/en/experience/beginners-luck/_jcr_content/root/hero_image.coreimg{.width}.jpeg/1540412484690.jpeg" class="cmp-image">
+    
+        
+            <img src="images/1540412484690_2.jpeg" class="cmp-image__image" data-cmp-hook-image="image" alt>
+        
+    
+    
+</div>
+
+    
+
+
+            <span class="cmp-list__item-title">Beginners Luck</span>
+            <span class="cmp-list__item-date">2018-10-24</span>
+        </a>
+        
+    </article>
+</li>
+
+    <li class="cmp-list__item">
+    <article>
+        <a class="cmp-list__item-link" href="warming-up_2.html">
+            
+<div data-cmp-is="image" data-cmp-src="/content/we-retail/language-masters/en/experience/warming-up/_jcr_content/root/hero_image.coreimg{.width}.jpeg/1540415604685.jpeg" class="cmp-image">
+    
+        
+            <img src="images/1540415604685_2.jpeg" class="cmp-image__image" data-cmp-hook-image="image" alt>
+        
+    
+    
+</div>
+
+    
+
+
+            <span class="cmp-list__item-title">Warming Up</span>
+            <span class="cmp-list__item-date">2018-10-24</span>
+        </a>
+        
+    </article>
+</li>
+
+    <li class="cmp-list__item">
+    <article>
+        <a class="cmp-list__item-link" href="keep-moving_2.html">
+            
+<div data-cmp-is="image" data-cmp-src="/content/we-retail/language-masters/en/experience/keep-moving/_jcr_content/root/hero_image.coreimg{.width}.jpeg/1540415632896.jpeg" class="cmp-image">
+    
+        
+            <img src="images/1540415632896_2.jpeg" class="cmp-image__image" data-cmp-hook-image="image" alt>
+        
+    
+    
+</div>
+
+    
+
+
+            <span class="cmp-list__item-title">Keep Moving</span>
+            <span class="cmp-list__item-date">2018-10-24</span>
+        </a>
+        
+    </article>
+</li>
+</ul>
+
+    
+
+</div>
+<div class="title aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-title">
+    <h2 class="cmp-title__text">New arrivals</h2>
+</div>
+
+    
+
+</div>
+<div class="we-productgrid aem-GridColumn aem-GridColumn--default--12">
+<div class="we-product-grid-container">
+    
+</div>
+
+    
+
+</div>
+<div class="title aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-title">
+    <h2 class="cmp-title__text">Join our Community</h2>
+</div>
+
+    
+
+</div>
+<div class="categoryteaser image aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+<div class="we-CategoryTeaser">
+    <div class="crop crop-16_9 cmp cmp-image">
+<div data-cmp-is="image" data-cmp-src="/content/we-retail/ca/fr/_jcr_content/root/responsivegrid/category_teaser_984780047.coreimg{.width}.jpeg/1540574906941.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/activities/hiking-camping/camp-summer-night.jpg" data-title="Camp Summer Night" class="cmp-image">
+    
+        <noscript data-cmp-hook-image="noscript">
+            <img src="images/1540574906941_1.jpeg" class="cmp-image__image" data-cmp-hook-image="image" alt="Tent and the Milky Way with mountain scenery" title="Camp Summer Night">
+        </noscript>
+    
+    
+</div>
+
+    
+
+</div>
+
+    <h2></h2>
+    <h3></h3>
+    
+    
+</div>
+</div>
+<div class="categoryteaser image aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+<div class="we-CategoryTeaser">
+    <div class="crop crop-16_9 cmp cmp-image">
+<div data-cmp-is="image" data-cmp-src="/content/we-retail/ca/fr/_jcr_content/root/responsivegrid/category_teaser_305030210.coreimg{.width}.jpeg/1540575375729.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/activities/climbing/ice-climbing-group.jpg" data-title="Ice Climbing Group" class="cmp-image">
+    
+        <noscript data-cmp-hook-image="noscript">
+            <img src="images/1540575375729_1.jpeg" class="cmp-image__image" data-cmp-hook-image="image" alt="Ice climbers in Island Peak(imja tse), Nepal" title="Ice Climbing Group">
+        </noscript>
+    
+    
+</div>
+
+    
+
+</div>
+
+    <h2></h2>
+    <h3></h3>
+    
+    
+</div>
+</div>
+<div class="categoryteaser image aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+<div class="we-CategoryTeaser">
+    <div class="crop crop-16_9 cmp cmp-image">
+<div data-cmp-is="image" data-cmp-src="/content/we-retail/ca/fr/_jcr_content/root/responsivegrid/category_teaser_1388037983.coreimg{.width}.jpeg/1540574889826.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/activities/biking/group-mountain-bikers.jpg" data-title="Group Mountain Bikers" class="cmp-image">
+    
+        <noscript data-cmp-hook-image="noscript">
+            <img src="images/1540574889826_1.jpeg" class="cmp-image__image" data-cmp-hook-image="image" alt="Group of mountain bikers riding an enduro trail in the austrian alps in salzburg near Kaprun" title="Group Mountain Bikers">
+        </noscript>
+    
+    
+</div>
+
+    
+
+</div>
+
+    <h2></h2>
+    <h3></h3>
+    
+    
+</div>
+</div>
+
+    
+</div></div>
+<div class="footer aem-GridColumn aem-GridColumn--default--12">
+
+    
+
+
+
+
+
+    <footer class="we-Footer">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="we-Logo we-Logo--big">
+                        <strong>LUMA</strong>
+                    </div>
+                </div>
+
+                <div class="col-md-9 col-sm-12">
+                    <div class="we-navigation">
+
+
+    
+
+</div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row we-Footer-section we-Footer-section--sub">
+                <div class="we-Footer-section-item">
+                    <span class="text-uppercase text-muted">© 2019 All rights reserved By Adobe Inc.</span>
+                </div>
+                <div class="we-Footer-section-item">
+                    <a href="#" class="text-uppercase text-muted">Terms of use &amp; privacy policy</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <a href="#top" class="btn btn-action btn-action-up btn-primary">Ride to the top</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</div>
+
+    
+</div></div>
+
+</div>
+
+            
+    
+    
+
+    
+    
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+<script type="text/javascript" src="js/clientlib-base.js"></script>
+
+
+
+    
+    
+
+
+    
+
+    
+
+
+            
+
+        
+    </body>
+</html>
