@@ -7,5 +7,5 @@ git pull
 
 # Launch the localhost pages
 open -a Google\ Chrome "http://launch-demo.adobe.com/"
-open -a Google\ Chrome "http://localhost"
+open -a Google\ Chrome "http://localhost/content/we-retail/us/en.html"
 open -a Google\ Chrome "http://bit.ly/Lab779"
