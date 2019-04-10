@@ -1,0 +1,3 @@
+[submodule "Sites/WeRetailSite"]
+	path = Sites/WeRetailSite
+	url = https://github.com/Adobe-Marketing-Cloud-Activation/WeRetailSite.git
