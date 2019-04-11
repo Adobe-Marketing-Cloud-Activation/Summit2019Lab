@@ -29,7 +29,9 @@ echo "Restart MAMP After Config"
 open /Applications/MAMP/MAMP.app/
 cd /Applications/MAMP/bin
 ./stop.sh
+sleep 4s
 ./start.sh
+sleep 4s
 
 # Launch the localhost pages
 echo "Open Chrome Tabs"
