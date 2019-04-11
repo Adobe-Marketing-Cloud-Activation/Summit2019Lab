@@ -21,8 +21,8 @@ git submodule update
 # Make sure MAMP is pointed at the right location
 echo "Ensure MAMP Configuration"
 /Applications/MAMP/conf/apache/httpd.conf
-sed -i "" '190,200s_DocumentRoot\ .*_DocumentRoot "/Users/tl07/Desktop/SummitLab2019-TL07/Sites/WeRetail"_' /Applications/MAMP/conf/apache/httpd.conf
-sed -i "" '210,225s_<Directory\ ".*">_<Directory "/Users/tl07/Desktop/SummitLab2019-TL07/Sites/WeRetail">_' /Applications/MAMP/conf/apache/httpd.conf
+sed -i "" '190,200s_DocumentRoot\ .*_DocumentRoot "/Users/bpack/Desktop/SummitLab2019-TL07/Sites/WeRetail"_' /Applications/MAMP/conf/apache/httpd.conf
+sed -i "" '210,225s_<Directory\ ".*">_<Directory "/Users/bpack/Desktop/SummitLab2019-TL07/Sites/WeRetail">_' /Applications/MAMP/conf/apache/httpd.conf
 
 # Restart MAMP
 echo "Restart MAMP After Config"
@@ -31,10 +31,12 @@ cd /Applications/MAMP/bin
 ./stop.sh
 sleep 4s
 ./start.sh
-sleep 4s
+sleep 6s
 
 # Launch the localhost pages
 echo "Open Chrome Tabs"
 open -a Google\ Chrome "http://launch-demo.adobe.com/"
 open -a Google\ Chrome "http://localhost/content/we-retail/us/en.html"
 open -a Google\ Chrome "http://bit.ly/Lab779"
+
+exit
