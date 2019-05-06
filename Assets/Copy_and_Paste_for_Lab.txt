@@ -1,0 +1,95 @@
+Pre-Lab
+=================================================
+Username:  L779+NUMBER@ADOBEEVENTLAB.COM
+Password:  Adobe2019!
+
+
+Exercise 1.1
+=================================================
+https://experiencecloud.adobe.com
+https://launch-demo-adobe.com
+
+
+
+Exercise 1.2
+=================================================
+Launch Tutorial #YOUR_NUMBER
+enablementadobe.com
+
+
+
+Exercise 3.3
+=================================================
+http://bit.ly/WeRetail
+ 
+ 
+
+Exercise 4.1
+=================================================
+digitalData.page.pageInfo.pageName
+
+
+
+Exercise 5.2
+=================================================
+if (digitalData.user[0].profile[0].attributes.loggedIn)
+    return "logged in"
+else
+    return "logged out"
+	
+
+
+digitalData.user.0.profile.0.attributes.username
+
+
+
+<script>
+    //prehiding snippet for Adobe Target with asynchronous Launch deployment
+    (function(g,b,d,f){(function(a,c,d){if(a){var e=b.createElement("style");e.id=c;e.innerHTML=d;a.appendChild(e)}})(b.getElementsByTagName("head")[0],"at-body-style",d);setTimeout(function(){var a=b.getElementsByTagName("head")[0];if(a){var c=b.getElementById("at-body-style");c&&a.removeChild(c)}},f)})(window,document,"body {opacity: 0 !important}",3E3);
+</script>
+
+
+
+Exercise 6.4
+=================================================
+digitalData.cart.orderId
+digitalData.cart.cartAmount
+
+
+var targetProdSkus="";
+for (var i=0; i<digitalData.cart.cartEntries.length; i++) {
+  if(i>0) {
+    targetProdSkus = targetProdSkus + ",";
+  }
+  targetProdSkus = targetProdSkus + digitalData.cart.cartEntries[i].sku;
+}
+return targetProdSkus;
+
+
+
+adobe.target.getOffer({
+  "mbox": "orderConfirmPage",
+  "params":{
+     "orderId": _satellite.getVar('Order Id'),
+     "orderTotal": _satellite.getVar('Cart Amount'),
+    "productPurchasedId": _satellite.getVar('Cart SKUs (Target)')
+  },
+  "success": function(offer) {
+    adobe.target.applyOffer({
+      "mbox": "orderConfirmPage",
+      "offer": offer
+    });
+  },
+  "error": function(status, error) {
+    console.log('Error', status, error);
+  }
+});
+
+
+
+Exercise 7.3.1
+=================================================
+digitalData.page.category.type
+digitalData.product.0.productInfo.sku
+
+
